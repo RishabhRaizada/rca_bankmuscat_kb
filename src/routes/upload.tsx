@@ -8,9 +8,9 @@ import { AppShell } from "@/components/app/AppShell";
 import { SectionCard } from "@/components/app/SectionCard";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { analyzeRows } from "@/lib/cip/mock-engine";
 import { sampleAnalysis } from "@/lib/cip/sample";
 import { saveAnalysis } from "@/lib/cip/store";
+import { processFile } from "@/lib/cip/api";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/upload")({
