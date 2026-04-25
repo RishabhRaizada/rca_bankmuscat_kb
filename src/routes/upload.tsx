@@ -8,9 +8,9 @@ import { AppShell } from "@/components/app/AppShell";
 import { SectionCard } from "@/components/app/SectionCard";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { analyzeRows } from "@/lib/cip/mock-engine";
 import { sampleAnalysis } from "@/lib/cip/sample";
 import { saveAnalysis } from "@/lib/cip/store";
+import { processFile } from "@/lib/cip/api";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/upload")({
@@ -93,8 +93,8 @@ function UploadPage() {
     setSteps((s) => s.map((step, idx) => ({ ...step, status: idx < i ? "done" : idx === i ? "active" : "pending" })));
 
   const process = async () => {
-    if (!file && rows.length === 0) {
-      // Use sample
+    if (!file) {
+      // Use sample data — no backend call needed
       setProcessing(true);
       for (let i = 0; i <= 100; i += 5) {
         setProgress(i);
@@ -108,47 +108,51 @@ function UploadPage() {
       setTimeout(() => nav({ to: "/dashboard" }), 400);
       return;
     }
-    setProcessing(true);
-    advance(0);
-    // Re-parse full file
-    let allRows: Record<string, unknown>[] = [];
-    const ext = file!.name.toLowerCase().split(".").pop();
-    if (ext === "csv") {
-      const text = await file!.text();
-      const parsed = Papa.parse<Record<string, unknown>>(text, { header: true, skipEmptyLines: true });
-      allRows = parsed.data;
-    } else {
-      const buf = await file!.arrayBuffer();
-      const wb = XLSX.read(buf, { type: "array" });
-      const ws = wb.Sheets[wb.SheetNames[0]];
-      allRows = XLSX.utils.sheet_to_json<Record<string, unknown>>(ws, { defval: "" });
-    }
-    const col = textCol ?? detectTextColumn(Object.keys(allRows[0] ?? {})) ?? "";
-    const texts = allRows.map((r) => String(r[col] ?? "")).filter(Boolean);
 
-    // Animate steps
-    const stages = [
-      { p: 25, step: 1, ms: 400 },
-      { p: 60, step: 2, ms: 600 },
-      { p: 90, step: 3, ms: 500 },
-    ];
-    for (const s of stages) {
-      advance(s.step);
-      const start = progress;
-      const target = s.p;
-      const t0 = Date.now();
-      while (Date.now() - t0 < s.ms) {
-        const pct = start + ((target - start) * (Date.now() - t0)) / s.ms;
-        setProgress(pct);
-        await new Promise((r) => setTimeout(r, 30));
+    setProcessing(true);
+    setError(null);
+    advance(0);
+    setProgress(8);
+
+    // Animate through the first stages while the backend processes the file
+    let cancelled = false;
+    const animate = async () => {
+      const stages = [
+        { p: 25, step: 1, ms: 400 },
+        { p: 55, step: 2, ms: 700 },
+        { p: 85, step: 3, ms: 900 },
+      ];
+      for (const s of stages) {
+        if (cancelled) return;
+        advance(s.step);
+        const start = s.p - 20;
+        const target = s.p;
+        const t0 = Date.now();
+        while (!cancelled && Date.now() - t0 < s.ms) {
+          const pct = start + ((target - start) * (Date.now() - t0)) / s.ms;
+          setProgress(pct);
+          await new Promise((r) => setTimeout(r, 40));
+        }
+        setProgress(target);
       }
-      setProgress(target);
+    };
+
+    try {
+      const [payload] = await Promise.all([processFile(file), animate()]);
+      cancelled = true;
+      saveAnalysis(payload);
+      setProgress(100);
+      advance(4);
+      setTimeout(() => nav({ to: "/dashboard" }), 500);
+    } catch (e) {
+      cancelled = true;
+      setProcessing(false);
+      setProgress(0);
+      setSteps((s) => s.map((step) => ({ ...step, status: "pending" })));
+      setError(
+        `${(e as Error).message}. Make sure the backend is running at the configured API URL (default http://localhost:8000).`,
+      );
     }
-    const payload = analyzeRows(texts);
-    saveAnalysis(payload);
-    setProgress(100);
-    advance(4);
-    setTimeout(() => nav({ to: "/dashboard" }), 500);
   };
 
   const reset = () => {
