@@ -16,6 +16,9 @@ export interface AnalysisResult {
   urgency: string;
   flag: string;
   original_text: string;
+  suggested_category?: string;
+  suggested_sub_category?: string;
+  suggested_issue?: string;
 }
 
 export interface AnalysisReport {

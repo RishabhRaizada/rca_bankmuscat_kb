@@ -1,4 +1,14 @@
-import { Bar, BarChart, CartesianGrid, Cell, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Cell,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+  LabelList,
+} from "recharts";
 
 const COLORS = [
   "var(--color-chart-1)",
@@ -14,32 +24,69 @@ interface DataItem {
   value: number;
 }
 
-export function CategoryBar({ data, horizontal = false, color }: { data: DataItem[]; horizontal?: boolean; color?: string }) {
+export function CategoryBar({
+  data,
+  color,
+  xLabel,
+  yLabel,
+}: {
+  data: DataItem[];
+  color?: string;
+  xLabel?: string;
+  yLabel?: string;
+}) {
+  if (!data || data.length === 0) return null;
+
   return (
-    <ResponsiveContainer width="100%" height={280}>
-      <BarChart data={data} layout={horizontal ? "vertical" : "horizontal"} margin={{ top: 8, right: 16, left: horizontal ? 80 : 0, bottom: 8 }}>
-        <CartesianGrid stroke="var(--color-border)" strokeDasharray="3 3" vertical={!horizontal} horizontal={horizontal} />
-        {horizontal ? (
-          <>
-            <XAxis type="number" stroke="var(--color-muted-foreground)" fontSize={11} />
-            <YAxis dataKey="name" type="category" stroke="var(--color-muted-foreground)" fontSize={11} width={120} />
-          </>
-        ) : (
-          <>
-            <XAxis dataKey="name" stroke="var(--color-muted-foreground)" fontSize={11} interval={0} angle={-15} textAnchor="end" height={50} />
-            <YAxis stroke="var(--color-muted-foreground)" fontSize={11} allowDecimals={false} />
-          </>
-        )}
-        <Tooltip
-          cursor={{ fill: "color-mix(in oklab, var(--color-primary) 8%, transparent)" }}
-          contentStyle={{
-            background: "var(--color-popover)",
-            border: "1px solid var(--color-border)",
-            borderRadius: 8,
-            fontSize: 12,
-          }}
-        />
+    <ResponsiveContainer width="100%" height={220}>
+      <BarChart
+        data={data}
+        margin={{ top: 20, right: 20, left: 20, bottom: 50 }}
+      >
+        <CartesianGrid strokeDasharray="3 3" />
+
+        {/* X Axis */}
+        <XAxis
+          dataKey="name"
+          interval={0}
+          height={60}
+          tick={{ fontSize: 11 }}
+        >
+          {xLabel && (
+            <text
+              x={250}
+              y={50}
+              textAnchor="middle"
+              fontSize={12}
+              fill="#666"
+            >
+              {xLabel}
+            </text>
+          )}
+        </XAxis>
+
+        {/* Y Axis */}
+        <YAxis allowDecimals={false}>
+          {yLabel && (
+            <text
+              x={-10}
+              y={80}
+              transform="rotate(-90)"
+              textAnchor="middle"
+              fontSize={12}
+              fill="#666"
+            >
+              {yLabel}
+            </text>
+          )}
+        </YAxis>
+
+        <Tooltip />
+
         <Bar dataKey="value" radius={[6, 6, 0, 0]}>
+          {/* ✅ VALUE LABELS ON BARS */}
+          <LabelList dataKey="value" position="top" fontSize={11} />
+
           {data.map((_, i) => (
             <Cell key={i} fill={color ?? COLORS[i % COLORS.length]} />
           ))}

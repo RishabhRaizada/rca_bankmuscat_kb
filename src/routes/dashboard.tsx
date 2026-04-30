@@ -45,12 +45,30 @@ function Dashboard() {
     results.forEach((r) => m.set(r.message_type, (m.get(r.message_type) ?? 0) + 1));
     return Array.from(m, ([name, value]) => ({ name, value }));
   }, [results]);
+  console.log("RAW sentiment_summary:", report.sentiment_summary);
+  const sentimentData = useMemo(() => {
+    const mapped = new Map<string, number>();
 
-  const sentimentData = useMemo(
-    () => Object.entries(report.sentiment_summary).map(([name, value]) => ({ name, value: value as number })),
-    [report.sentiment_summary],
-  );
+    Object.entries(report.sentiment_summary).forEach(([name, value]) => {
+      let label = name?.trim().toLowerCase();
 
+      // ✅ Handle EMPTY string as Positive
+      if (!label) label = "positive";
+
+      // ✅ Normalize labels
+      if (label === "negative") label = "Negative";
+      else if (label === "neutral") label = "Neutral";
+      else if (label === "positive") label = "Positive";
+
+      mapped.set(label, (mapped.get(label) ?? 0) + Number(value));
+    });
+
+    const result = Array.from(mapped, ([name, value]) => ({ name, value }));
+
+    console.log("FINAL sentimentData:", result);
+
+    return result;
+  }, [report.sentiment_summary]);
   const categoryData = useMemo(
     () => report.category_summary.map((c) => ({ name: c.category, value: c.count })),
     [report.category_summary],
@@ -90,7 +108,9 @@ function Dashboard() {
     XLSX.utils.book_append_sheet(wb, wsSummary, "Summary");
     XLSX.writeFile(wb, "customer-intelligence-report.xlsx");
   };
-
+  console.log("RAW CATEGORY SUMMARY:", report.category_summary);
+  console.log("MAPPED CATEGORY DATA:", categoryData);
+  console.log("CATEGORY DATA:", categoryData);
   const exportPDF = () => {
     const doc = new jsPDF();
     doc.setFontSize(18);
@@ -194,7 +214,7 @@ function Dashboard() {
         transition={{ delay: 0.3 }}
         className="mt-6 overflow-hidden rounded-2xl border bg-gradient-card p-6 shadow-card"
       >
-        <div className="flex items-start gap-4">
+        {/* <div className="flex items-start gap-4">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
             <Sparkles className="h-5 w-5" />
           </div>
@@ -210,47 +230,48 @@ function Dashboard() {
               ))}
             </ul>
           </div>
-        </div>
+        </div> */}
       </motion.div>
 
       {/* Charts */}
+{/* Charts */}
+{/* Charts */}
       <div className="mt-6 grid gap-4 lg:grid-cols-2">
-        <SectionCard title="Message type" description="Distribution across complaints, questions and others">
-          <CategoryBar data={messageTypeData} />
-        </SectionCard>
-        <SectionCard title="Sentiment" description="Customer sentiment breakdown">
-          <CategoryBar data={sentimentData} />
-        </SectionCard>
-        <SectionCard
-          title="Category distribution"
-          description={filterCategory ? `Filtered: ${filterCategory}` : "Click a bar to drill into sub-categories"}
-          action={
-            filterCategory && (
-              <button onClick={() => setFilterCategory(null)} className="text-xs text-primary hover:underline">
-                Clear filter
-              </button>
-            )
-          }
-        >
-          <div onClick={(e) => {
-            const target = e.target as SVGElement;
-            const name = target.closest("g")?.querySelector("text")?.textContent;
-            if (name) setFilterCategory(name === filterCategory ? null : name);
-          }}>
-            <CategoryBar data={categoryData} />
-          </div>
-        </SectionCard>
-        <SectionCard title="Sub-category breakdown" description={filterCategory ? `Within ${filterCategory}` : "All categories"}>
-          <CategoryBar data={subData} horizontal />
-        </SectionCard>
-        <SectionCard title="Top issues" description="Most frequent customer issues">
-          <CategoryBar data={issuesData} horizontal color="var(--color-chart-3)" />
-        </SectionCard>
-        <SectionCard title="Root cause distribution" description="Mapped from knowledge base">
-          <CategoryBar data={rcaData} horizontal color="var(--color-chart-4)" />
-        </SectionCard>
-      </div>
 
+        {/* Message Type */}
+        {messageTypeData.length > 0 && (
+          <SectionCard title="Message Type Distribution">
+            <CategoryBar
+              data={messageTypeData}
+              xLabel="Message Type"
+              yLabel="Count"
+            />
+          </SectionCard>
+        )}
+
+        {/* Sentiment */}
+        {sentimentData.length > 0 && (
+          <SectionCard title="Sentiment Distribution">
+            <CategoryBar
+              data={sentimentData}
+              xLabel="Sentiment"
+              yLabel="Count"
+            />
+          </SectionCard>
+        )}
+
+        {/* Category */}
+        {categoryData.length > 0 && (
+          <SectionCard title="Category Distribution">
+            <CategoryBar
+              data={categoryData}
+              xLabel="Category"
+              yLabel="Count"
+            />
+          </SectionCard>
+        )}
+
+      </div>
       {/* Recent messages */}
       <SectionCard
         title="Recent messages"
