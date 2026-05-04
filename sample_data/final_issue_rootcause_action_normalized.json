@@ -1,0 +1,7052 @@
+{
+  "Delay in Cancelling Finance Application": {
+    "root_causes": [
+      "Back Office Delay",
+      "Cancellation Fees Not Paid",
+      "Customer Retraction",
+      "Disbursement Completed",
+      "Incomplete Documents",
+      "System Error"
+    ],
+    "actions": [
+      "Contact The Customer",
+      "Rectify",
+      "Request Customer For Missing Documents",
+      "Work In Progress"
+    ]
+  },
+  "Signature not Captured": {
+    "root_causes": [
+      "Signature Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Check Additional Services Application",
+      "Contact Customer If Necessary"
+    ]
+  },
+  "Blocked Amount": {
+    "root_causes": [
+      "Operational Issue",
+      "Payment Pending"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Returned Cheque not Received": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "Signature Issue"
+    ],
+    "actions": [
+      "Check Customer Account Statement"
+    ]
+  },
+  "Wrong Amount Posted": {
+    "root_causes": [
+      "Customer Retraction",
+      "Human Error"
+    ],
+    "actions": [
+      "Check Customer Account Statement"
+    ]
+  },
+  "Special Cheque Book not Received/ Issued": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Details",
+      "Handover Chq Book  To Customer"
+    ]
+  },
+  "Fixed Deposit not Cancelled": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Transfer Request not Done": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "Signature Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Details  And Inform The Customer About Wrong Details Or Insufficient Funds.Inform Customer And Reprocess",
+      "Check The Details  And Rectify The Customer Details",
+      "Inform Customer And Reprocess",
+      "Inform Customer If Reason Like Amount Not Available Or Signature Different. If Human Error Of Bm Staff",
+      "Rectify Isssue"
+    ]
+  },
+  "Printed Account Statement not Received": {
+    "root_causes": [
+      "Branch Delay",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Escalate To It Team If Statement Required Is Archived"
+    ]
+  },
+  "Cash Not credited within Own Account": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "BCDM Location",
+      "Cdm Details",
+      "Check Customer Details",
+      "Contact Customer If Necessary",
+      "Machine Roll"
+    ]
+  },
+  "FD Matured Instead of Renewed": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "FD Auto Renewed Without Customer Request": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Cheque Deposited but not Credited": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Account Statement"
+    ]
+  },
+  "Savings Plan Requested but not Created": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Wrong Interest Payment/ Frequency": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Email Notifications not Received": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Technical Issue Rectified",
+      "Update Customer Details"
+    ]
+  },
+  "Wrong Amount Credited": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Account Statement",
+      "Check Customer Details Initiate Recall Or Ask Customer To Initiate Recall Depending On Source Of Error",
+      "Check The Details  And Rectify The Customer Details",
+      "Inform Customer And Reprocess"
+    ]
+  },
+  "Debit/Credit Wrong Currency/Exchange Rate": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Check The Details  And Rectify The Customer Details",
+      "Inform Customer And Reprocess",
+      "Provide Confirmation Request"
+    ]
+  },
+  "Card not Activated": {
+    "root_causes": [
+      "Branch Delay",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Activate The Card",
+      "Collect Destroyed Card From Customer",
+      "Escalate To It",
+      "Issue New Card"
+    ]
+  },
+  "SMS Notifications not Received": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Technical Issue Rectified",
+      "Update Customer Details"
+    ]
+  },
+  "AC/Light Not Working": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Report To Support Service Team"
+    ]
+  },
+  "Blocked Loan Installment": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check T24",
+      "Check The Account",
+      "Contact Customer",
+      "Rectify",
+      "Rectify Technical Error",
+      "Release The Block",
+      "Release The Locked Amount"
+    ]
+  },
+  "Address not Updated": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Additional Services Application",
+      "Contact Customer If Necessary"
+    ]
+  },
+  "Unknown Debit/ Credit": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "E-Statement not Received": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Send The Statement",
+      "Update The Email Id"
+    ]
+  },
+  "Stopped Cheque Paid": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Account Statement"
+    ]
+  },
+  "Cash not transfered to own account": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Atm Details",
+      "Check Customer Details Ft Number",
+      "Machine Roll"
+    ]
+  },
+  "Amount Credited to Wrong Account": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check Customer Details Initiate Recall Or Ask Customer To Initiate Recall Depending On Source Of Error",
+      "Check The Details  And Rectify The Customer Details",
+      "Inform Customer And Reprocess",
+      "Initiate Recall Or Ask Customer To Initiate Recall Depending On Source Of Error",
+      "Send Benificary Correction Request To Other Bank",
+      "Send Cancellation Request  To Other Bank"
+    ]
+  },
+  "Duplicate Payments": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Account Statement"
+    ]
+  },
+  "Wrong Charges/ Interest or Interest not Paid": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Human Error",
+      "Operational Issue",
+      "Payment Pending",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify",
+      "Refund the Amount"
+    ]
+  },
+  "Duplicate Amount Transferred": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Check the transaction in t24/ contact the customer if extra information is required /Contact the other bank",
+      "Inform Customer And Reprocess",
+      "Initiate Recall Or Ask Customer To Initiate Recall Depending On Source Of Error"
+    ]
+  },
+  "Account not Closed": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Call The Customer To Fill Application",
+      "Clear Balance Contact Customer To Clear Outstanding Balance",
+      "Close Account",
+      "Credit Card",
+      "Financing"
+    ]
+  },
+  "Wrong Installment Date": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Account",
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Wrong Charges/ Profit or Profit not Paid": {
+    "root_causes": [
+      "Human Error",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Account",
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Card not received/Issued": {
+    "root_causes": [
+      "Branch Delay",
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Ask Customer To Fill Up Lounge Key Dispute Resolution Form",
+      "Check With Card Services If Card Is Printed And Check With Mailing Department To Check If Card Sent To Branch",
+      "Collect Destroyed Card From Customer",
+      "Escalate To It",
+      "Issue New Card",
+      "Rectify"
+    ]
+  },
+  "Customer Name not Updated": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Update Customer Details"
+    ]
+  },
+  "Normal Cheque Book not Received/ Issued": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Details",
+      "Handover Chq Book  To Customer"
+    ]
+  },
+  "Delay in Insurance Refund": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Rectify"
+    ]
+  },
+  "Monthly profit not added back": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Incorrect Rate/ Profit Not Paid/ Compound Profit not Paid": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Cash not transfered to other Bank ATM Locally": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Atm Details",
+      "Check Customer Details Ft Number",
+      "Machine Roll"
+    ]
+  },
+  "Savings Plan not Canceled": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Phone Number not Updated": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Additional Services Application",
+      "Contact Customer If Necessary"
+    ]
+  },
+  "Standing Order not Executed / Created / Closed": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Monthly Interest not Added Back": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "ATM / CDM Area not Clean": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Report To Stakeholders"
+    ]
+  },
+  "Debit from Wrong Account": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check The Details  And Rectify The Customer Details",
+      "Inform Customer And Reprocess"
+    ]
+  },
+  "Incorrect Rate/ Interest not Paid/ Compound Interest not Paid": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "End of Service Benefit Amount not Released": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check Branch Suspense Account",
+      "Check The Cause Of Delay And Rectify",
+      "Contact The Customer For Additional Details"
+    ]
+  },
+  "Cash not credited  to other Account": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Cdm Details",
+      "Check Customer Details",
+      "Contact Customer If Necessary",
+      "Machine Roll"
+    ]
+  },
+  "Account not Opened": {
+    "root_causes": [
+      "Incomplete Documents",
+      "Invalid Documents",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Contact Customer For Missing Documents",
+      "Open Account",
+      "Rectify"
+    ]
+  },
+  "Unable to Open E-Statement": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Escalate To Account Operation Team If Id Is Wrong"
+    ]
+  },
+  "Customer ID/ Passport Number not Updated": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Additional Services Application",
+      "Contact Customer If Necessary"
+    ]
+  },
+  "Account Opened With Wrong Currency": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Human Error"
+    ],
+    "actions": [
+      "Branch needs to check Customer Application",
+      "Call The Customer To Fill Application",
+      "Check Additional Services Application"
+    ]
+  },
+  "Unacceptable Cash Received": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Atm Details",
+      "Check Customer Details Ft Number",
+      "Machine Roll"
+    ]
+  },
+  "Request for Further Transaction Details": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "Payment Pending",
+      "System Error"
+    ],
+    "actions": [
+      "Check T24",
+      "Check The Customer Account And Provide The Necessary Details",
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Check The Transaction",
+      "Check the transaction in t24/ contact the customer if extra information is required /Contact the other bank",
+      "Rectify Isssue",
+      "Request Customer For Missing Documents",
+      "Request Customer To Submit A New Request At The Branch",
+      "Request For Reversal Of Amount",
+      "Reverse Amount"
+    ]
+  },
+  "Enquiry on Swift Charges": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Interest not Credited": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Customer Account And Provide The Necessary Details",
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Enquiry on Countries Available for Fund Transfer": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry  on Dormant Account Activation": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry on Overseas Transfer Limit": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Account Opened With Wrong Mail Address": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check Customer Aof Form",
+      "Contact Customer",
+      "Modify The Account"
+    ]
+  },
+  "Account Opened With Wrong Phone Number": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check Customer Aof Form",
+      "Contact Customer",
+      "Modify The Account"
+    ]
+  },
+  "Account Opened With Wrong Customer ID/Passport Number": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check Customer Aof Form",
+      "Contact Customer",
+      "Modify The Account"
+    ]
+  },
+  "Account Opened With Wrong Branch Entity Number": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check Customer Aof Form",
+      "Contact Customer",
+      "Modify The Account"
+    ]
+  },
+  "Account Opened With Wrong Signature": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check Customer Aof Form",
+      "Contact Customer",
+      "Modify The Account"
+    ]
+  },
+  "Requested Denomination Not Available": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check Atm"
+    ]
+  },
+  "Request for Archived Transaction Details": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check The Customer Account And Provide The Necessary Details"
+    ]
+  },
+  "Not receiving OTP": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error",
+      "Rectify Technical Issue"
+    ]
+  },
+  "Long Queue in ATM / CDM": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "E Channels Team"
+    ]
+  },
+  "Email Not Updated": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Additional Services Application",
+      "Contact Customer If Necessary"
+    ]
+  },
+  "User ID not Received for Accounts": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Provide The Corporate Id",
+      "User Id To The Customer"
+    ]
+  },
+  "FD Requested but not Created": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Secure Token PIN not Received": {
+    "root_causes": [
+      "Branch Delay",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Handover The Token To The Customer"
+    ]
+  },
+  "Secure Token not Working/ Active": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "System Error"
+    ],
+    "actions": [
+      "Check If The Token Is Linked And Activated",
+      "Contact The Customer"
+    ]
+  },
+  "Out of Service": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check The Machine"
+    ]
+  },
+  "Unable to view Account details": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Rectify Technical Issue"
+    ]
+  },
+  "Delay in Loan Cancellation": {
+    "root_causes": [
+      "Back Office Delay",
+      "Cancellation Fees Not Paid",
+      "Disbursement Completed",
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Contact The Customer",
+      "Rectify",
+      "Request Customer For Missing Documents",
+      "Work In Progress"
+    ]
+  },
+  "Delay in Loan/Amendment Processing": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Customer Request",
+      "Customer Retraction",
+      "Incomplete Documents",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Contact Customer And Inform Accrdingly",
+      "Escalation To Concerend Stakeholder",
+      "Escalation To Concerned Stakeholder",
+      "Rectify"
+    ]
+  },
+  "Delay in Payments to Other Bank for Takeover": {
+    "root_causes": [
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Rectify",
+      "Work In Progress"
+    ]
+  },
+  "Delay in Cancelling Loan Application": {
+    "root_causes": [
+      "Back Office Delay",
+      "Cancellation Fees Not Paid",
+      "Disbursement Completed",
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Contact The Customer",
+      "Rectify",
+      "Request Customer For Missing Documents",
+      "Work In Progress"
+    ]
+  },
+  "Delay in Rescheduling the Loan": {
+    "root_causes": [
+      "Branch Delay",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Escalation To Concerned Stakeholder",
+      "Follow Up Initiated",
+      "Investigate",
+      "Rectify"
+    ]
+  },
+  "Loan settlement not done": {
+    "root_causes": [
+      "Back Office Delay",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Rectify",
+      "Work In Progress"
+    ]
+  },
+  "Delay in Loan Settlement (Partial)": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Human Error",
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Advise customer of missing documents. Expidite processing to avoid furhter delays",
+      "Escalation To Concerned Stakeholder",
+      "Follow Up Initiated",
+      "Rectify",
+      "Work In Progress"
+    ]
+  },
+  "Delay in Loan Settlement (Full)": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Human Error",
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Advise customer of missing documents. Expidite processing to avoid furhter delays",
+      "Escalation To Concerned Stakeholder",
+      "Follow Up Initiated",
+      "Rectify",
+      "Work In Progress"
+    ]
+  },
+  "Partial Cash credited to other Account": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Cdm Details",
+      "Check Customer Details",
+      "Contact Customer If Necessary",
+      "Machine Roll"
+    ]
+  },
+  "Cash not received from Bank Muscat ATM": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Atm Details",
+      "Check Customer Details Ft Number",
+      "Machine Roll"
+    ]
+  },
+  "Cash not received from Meethaq ATM": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Atm Details",
+      "Check Customer Details Ft Number",
+      "Machine Roll"
+    ]
+  },
+  "Unable to insert Card": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check The Machine"
+    ]
+  },
+  "Amount Retracted but not reversed": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Atm Details",
+      "Check Customer Details Ft Number",
+      "Machine Roll"
+    ]
+  },
+  "Receipt not Available": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check The Machine"
+    ]
+  },
+  "Partial Cash credited within Own Account": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "BCDM Location",
+      "Cdm Details",
+      "Check Customer Details",
+      "Contact Customer If Necessary",
+      "Machine Roll"
+    ]
+  },
+  "Partial Cash received": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Atm Details",
+      "Check Customer Details Ft Number",
+      "Machine Roll"
+    ]
+  },
+  "Cash Debited more than once": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Atm Details",
+      "Check Customer Details Ft Number",
+      "Machine Roll"
+    ]
+  },
+  "Token not Linked": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Activate the Token",
+      "Branch needs to check Customer Application"
+    ]
+  },
+  "Incorrect/Missing Narration in Archived Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Incorrect/Missing Narration in Detailed Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Wrong Language Set for Notification": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Branch needs to check Customer Application",
+      "Call The Customer To Fill Application",
+      "Check Customer Aof Form",
+      "Check T24",
+      "Rectify The Error",
+      "Request Customer To Submit A New Request At The Branch"
+    ]
+  },
+  "Request to Transfer Card": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error"
+    ],
+    "actions": [
+      "Check With Card Services If Card Is Printed And Check With Mailing Department To Check If Card Sent To Branch",
+      "Contact The Customer"
+    ]
+  },
+  "Request to Close Account for Overseas Customer": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Process Customer Application"
+    ]
+  },
+  "Instant Account Activation": {
+    "root_causes": [
+      "Incomplete Documents",
+      "Invalid Documents",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "NOC Email Request": {
+    "root_causes": [
+      "Branch Delay",
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Inform The Customer About Incomplete Details"
+    ]
+  },
+  "Request to Transfer Cheque Book": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact Customer  Verify Details",
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Account Balance Not Updated": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact The Customer",
+      "Rectify Technical Error",
+      "Release The Locked Amount"
+    ]
+  },
+  "Corporate ID / User ID not Received": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Advise customer to update Email",
+      "Ask Customer To Submit Application",
+      "Check The Details  And Rectify The Customer Details",
+      "Provide The Corporate Id",
+      "User Id To The Customer"
+    ]
+  },
+  "Secure Token not Received": {
+    "root_causes": [
+      "Branch Delay"
+    ],
+    "actions": [
+      "Handover The Token To The Customer"
+    ]
+  },
+  "Secure Token Disabled": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Activate the Token",
+      "Branch needs to check Customer Application"
+    ]
+  },
+  "Token Showing SYS Error": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Activate the Token",
+      "Branch needs to check Customer Application"
+    ]
+  },
+  "Signature is Captured Singly Instead of Jointly": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Branch needs to check Customer Application",
+      "Contact Customer If Necessary"
+    ]
+  },
+  "Transaction Access not Given to User": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Online User Registration Request not Processed": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "VAT Invoice not Opened": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Guide The Customer On How To Login",
+      "Rectify Technical Error"
+    ]
+  },
+  "VAT Invoice not Received": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Advise customer to update Email",
+      "Rectify Technical Error"
+    ]
+  },
+  "Account Opened With Wrong Email ID": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check Customer Aof Form",
+      "Contact Customer",
+      "Modify The Account"
+    ]
+  },
+  "Enquiry on Opening VAT Invoice": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Delay in Balance Confirmation": {
+    "root_causes": [
+      "Branch Delay",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Arm To Provide Securities Information",
+      "Branch To Process The Request"
+    ]
+  },
+  "Enquiry on Account Statement": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry on Fixed Deposit Cancellation": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires"
+    ]
+  },
+  "Enquiry on Lulu Points": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Blocked Amount not Released": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Branch Has To Check With Bancassurance Business Team",
+      "Check The Customer Account And Provide The Necessary Details",
+      "Contact Customer",
+      "Contact Customer And Inform Accordingly",
+      "Rectify",
+      "Rectify Technical Error",
+      "Release The Locked Amount"
+    ]
+  },
+  "Enquiry on Locked Amount": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry on Credit Card Requirements": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Account Opened With Wrong Customer Name": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Human Error"
+    ],
+    "actions": [
+      "Branch needs to check Customer Application",
+      "Call The Customer To Fill Application",
+      "Check Additional Services Application"
+    ]
+  },
+  "Incorrect Details in Issued Certificate": {
+    "root_causes": [
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Call The Customer",
+      "Rectify The Error"
+    ]
+  },
+  "Unknown Debit Transaction": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Customer Account And Provide The Necessary Details",
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Guideline for Account Activation": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry on Company Registration": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Wrong Charges Debited": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Advise Correct Calculation To The Customer",
+      "Ask Cad Team To Recheck Rates And Update Accordingly.",
+      "Check Document And Rectify",
+      "Check If Customer Details Are Updated",
+      "Check The Customer Account And Provide The Necessary Details",
+      "Check internally",
+      "Contact Customer",
+      "Escalate To It Teams To Check And Rectify",
+      "No Request Found From Customer",
+      "Rectify"
+    ]
+  },
+  "Request to Transfer Credit Card": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error"
+    ],
+    "actions": [
+      "Check With Card Services If Card Is Printed And Check With Mailing Department To Check If Card Sent To Branch",
+      "Contact The Customer"
+    ]
+  },
+  "Enquiry on Secure Token Device": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry on Create /Reset PIN for Debit Card": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Delay in Updating Customer Details (Re-KYC)": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Additional Services Application",
+      "Contact Customer If Necessary"
+    ]
+  },
+  "Enquiry on Special Rate": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry on Increase Transaction Limit": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry on Swift Code": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry on Current Account Requirements": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Request to Transfer Debit Card": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error"
+    ],
+    "actions": [
+      "Check With Card Services If Card Is Printed And Check With Mailing Department To Check If Card Sent To Branch",
+      "Contact The Customer"
+    ]
+  },
+  "Enquiry on Airport Lounge Access": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Request for Approval to Add/Update Signature": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Update As Per Customer Request"
+    ]
+  },
+  "Enquiry on Debit Card Requirements": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry on Foreign Companies Account Requirements": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires"
+    ]
+  },
+  "Fixed Deposit Auto Renewed Without Customer Request": {
+    "root_causes": [
+      "Branch Delay",
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Fixed Deposit Redemption Enquiry": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Delay in Receiving Copy of Contractor Agreement": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Process The Request"
+    ]
+  },
+  "Delay in Stage Payment Release": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Check Document And Rectify",
+      "Contact Customer  Verify Details",
+      "Escalation To Concerned Stakeholder"
+    ]
+  },
+  "Delay in Loan Deferment Through Branch": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Check Document And Rectify",
+      "Contact Customer  Verify Details",
+      "Escalation To Concerned Stakeholder"
+    ]
+  },
+  "Customer Detail not Updated in CBO": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Check The Systems T24 & Prime"
+    ]
+  },
+  "Wrong Amount  Debited": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "Payment Pending",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Details Initiate Recall Or Ask Customer To Initiate Recall Depending On Source Of Error",
+      "Check Document And Rectify",
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Check The Details  And Rectify The Customer Details",
+      "Inform Customer And Reprocess"
+    ]
+  },
+  "Account not Opened through Branch": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Incomplete Documents",
+      "Invalid Documents",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Open Account"
+    ]
+  },
+  "Delay in Receiving Loan Reference Number": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Check Document And Rectify",
+      "Contact Customer  Verify Details",
+      "Escalation To Concerned Stakeholder"
+    ]
+  },
+  "Loan Settled through Guarantees but Title Deed (Mulkiya) not Released": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Process The Request"
+    ]
+  },
+  "Wrong Amount Debited": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Details Initiate Recall Or Ask Customer To Initiate Recall Depending On Source Of Error",
+      "Check The Details  And Rectify The Customer Details",
+      "Inform Customer And Reprocess"
+    ]
+  },
+  "Delay in Receiving Copy of Krooki": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Process The Request"
+    ]
+  },
+  "Delay in Receiving Finance Deal Number": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Check Document And Rectify",
+      "Contact Customer  Verify Details",
+      "Escalation To Concerned Stakeholder"
+    ]
+  },
+  "Delay in Financing Deferment through Branch": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Check Document And Rectify",
+      "Contact Customer  Verify Details",
+      "Escalation To Concerned Stakeholder"
+    ]
+  },
+  "Request to Reverse Amount from Third Party": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Enquiry on Account Status": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Delay in Receiving Copy of Title Deed (Mulkiya)": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Process The Request"
+    ]
+  },
+  "Finance Waiver Request not Done": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Check Document And Rectify",
+      "Contact Customer  Verify Details",
+      "Escalation To Concerned Stakeholder"
+    ]
+  },
+  "Card not Closed": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Customer Request",
+      "System Error"
+    ],
+    "actions": [
+      "Check Additional Services Application",
+      "Check The Systems T24 & Prime",
+      "Contact Customer For Missing Documents"
+    ]
+  },
+  "Delay in Receiving Copy of Insurance": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Process The Request"
+    ]
+  },
+  "Delay in Receiving Copy of Valuation": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Process The Request"
+    ]
+  },
+  "Loan Waiver Request Not Done": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Check Document And Rectify",
+      "Contact Customer  Verify Details",
+      "Escalation To Concerned Stakeholder"
+    ]
+  },
+  "Delay in Releasing NOC More than 5 Working Days": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Inform The Customer About Incomplete Details Or Reason  For Rejection  Like Active Credit Card Or Unpaid Liabilities. Branch Has To Check The View Remarks And Do The Needful Accordingly  And Informing The Customer"
+    ]
+  },
+  "Account Opened With Wrong CR Number": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Human Error"
+    ],
+    "actions": [
+      "Branch needs to check Customer Application",
+      "Call The Customer To Fill Application",
+      "Check Additional Services Application"
+    ]
+  },
+  "Enquiry on Speed Transfer Charges": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry on Credit Card PIN Reset": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Unknown Credit Transaction": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Customer Account And Provide The Necessary Details",
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Enquiry on loan Eligibility Criteria": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry on Balance Confirmation": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry on Airport Lounge Charges": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Enquiry on International Cash Withdrawal Limit": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Fixed Deposit not Created": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Contact Customer",
+      "Process Customer Application"
+    ]
+  },
+  "Enquiry on Card Activation": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Delay in Releasing CLC More than 5 Working Days": {
+    "root_causes": [
+      "Customer Request",
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Inform The Customer About Incomplete Details. Branch Submits\u00a0 The Documents\u00a0.Branch Has To Check The View Remarks And Do The Needful Accordingly\u00a0 And Informing The Customer"
+    ]
+  },
+  "Enquiry on Secure Token Activation": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "Contact Customer And Inform Accordingly",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Incorrect Interest Rate Applied": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Customer Account And Provide The Necessary Details",
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Request for Teller Deposit Transaction Details": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check The Customer Account And Provide The Necessary Details"
+    ]
+  },
+  "Overdue Settlement/ Adjustment Issues": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "Check The Issue And Process It",
+      "Process Customer Application",
+      "Process The Request",
+      "Rectify Technical Error"
+    ]
+  },
+  "Wrong Account Debited": {
+    "root_causes": [
+      "Customer Request",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify",
+      "Process The Request"
+    ]
+  },
+  "Wrong Charges Applied": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Advise Correct Calculation To The Customer",
+      "Ask Cad Team To Recheck Rates And Update Accordingly.",
+      "Check Document And Rectify",
+      "Check internally",
+      "Rectify"
+    ]
+  },
+  "Wrong Details Mentioned in Swift Payment Message": {
+    "root_causes": [
+      "Customer Request",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "LC Payment not Processed": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Wrong Exchange Rate Applied": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Enquiry on Payee Account": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check Settlement Report",
+      "Send Transaction Details to Other Bank",
+      "Verify Transaction Status"
+    ]
+  },
+  "Non Receipt of Funds to Beneficiary": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Details  And Rectify The Customer Details",
+      "Inform Customer And Reprocess",
+      "Inform Customer If Reason Like Amount Not Available Or Signature Different. If Human Error Of Bm Staff",
+      "Rectify Isssue",
+      "Rectify Technical Issue"
+    ]
+  },
+  "Amount Transferred to Wrong Beneficiary": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check Settlement Report",
+      "Request for Chargeback",
+      "Send Transaction Details to Other Bank",
+      "Verify Transaction Status"
+    ]
+  },
+  "Installment Waived Without Customer Request": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error"
+    ],
+    "actions": [
+      "Check The Account",
+      "Contact Customer If Necessary",
+      "Investigate"
+    ]
+  },
+  "Delay In Mortgage Execution": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Escalation To Concerned Stakeholder",
+      "Rectify",
+      "Work In Progress"
+    ]
+  },
+  "Locked Loan Amount": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Account",
+      "Contact Customer",
+      "Rectify",
+      "Rectify Technical Error",
+      "Release The Locked Amount"
+    ]
+  },
+  "Wrong Stage Payment to Contractor": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Wrong Installment Amount": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Account",
+      "Contact Customer",
+      "Rectify",
+      "Rectify The Error",
+      "Refund the Amount"
+    ]
+  },
+  "Guarantee Claim not Processed": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check The Issue And Process It"
+    ]
+  },
+  "Bid Bond Guarantee not Issued": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check The Issue And Process It"
+    ]
+  },
+  "Wrong Commission Rate Applied": {
+    "root_causes": [
+      "Customer Request",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Advise Correct Calculation To The Customer",
+      "Ask Cad Team To Recheck Rates And Update Accordingly.",
+      "Check Document And Rectify"
+    ]
+  },
+  "Guarantee Margin not Released": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check The Issue And Process It"
+    ]
+  },
+  "Wrong Details Mentioned in Guarantee": {
+    "root_causes": [
+      "Customer Request",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Guarantee not Cancelled": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check The Issue And Process It"
+    ]
+  },
+  "Request for Guarantee Cancellation Status": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Advise customer of missing documents",
+      "Check the status and provide it to the customer",
+      "Expedite processing to avoid further delays"
+    ]
+  },
+  "Wrong Guarantee Format": {
+    "root_causes": [
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Request for Guarantee Issuance Status": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Check the status and provide it to the customer",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Guarantee not Issued": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Issue And Process It"
+    ]
+  },
+  "Debit Advice not Received": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Issue And Process It",
+      "Send The Request To Customer"
+    ]
+  },
+  "Chip card issue": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check The Issue Type",
+      "If It Is Related To The Transaction Or The Pin",
+      "If The Issue Is With The Chip Reader Then Terminal Has To Be Replaced."
+    ]
+  },
+  "Function Disabled, please try again.": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check if the merchant is permitted to accept the transaction.",
+      "If no",
+      "If yes",
+      "guide the customer on how to apply to get the requested service.",
+      "update the terminal in the system and perform the remote download."
+    ]
+  },
+  "Switch inoperate": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check How Many Transactions And How Many Cards",
+      "Verify With The Data Center Team If There Is Any Issue With The System."
+    ]
+  },
+  "No Dial Tone": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check The Terminal Connectivity",
+      "Check The Terminal Phone Port."
+    ]
+  },
+  "Printing issues": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check If The Cover Closed Probably",
+      "Check If The Merchant Got The Rolls From The Bank.",
+      "Remove The Sim Card And Reinstall It."
+    ]
+  },
+  "Card Reader Issue": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check The Issue Type",
+      "If It Is Related To The Transaction Or The Pin",
+      "If The Issue Is With The Chip Reader Then Terminal Has To Be Replaced."
+    ]
+  },
+  "No File go, Download needed": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Terminal To Be Brought To Our Office And Re-Download The Program"
+    ]
+  },
+  "No Carrier": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check The Telephone Line Quality",
+      "Redo The Transaction."
+    ]
+  },
+  "No Master Key": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check If A Pin Pad Connected To The Terminal",
+      "If no",
+      "If yes",
+      "return the terminal to the office to reinject the keys.",
+      "then then check if the pin pad is functioning."
+    ]
+  },
+  "Batch rejected": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check The Date And Time Of The Batch And Terminal",
+      "Retry To Upload The Batch."
+    ]
+  },
+  "Line busy": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check If The Merchant Has An Extension Number",
+      "Check If The Merchant Is Using The Same Line Foe Other Terminals Or Other Things.",
+      "Check The Telephone Line"
+    ]
+  },
+  "Power Issues": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check If So Many Things Connected To The Main Power Supply. Replace The Power Cable.Ask The Merchant To Ask The Maintenance Team Toc Heck The Power.",
+      "Check If The Terminal Is Close To The Items Check Device"
+    ]
+  },
+  "Wrong Date & Time": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Ask The Customer To Perform The Remote Download"
+    ]
+  },
+  "Unsupported card": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check If The Merchant Is Permitted To Accept The Card",
+      "Check The Card Type",
+      "If Yes",
+      "Update The Terminal In The System And Do Perform The Remote Download."
+    ]
+  },
+  "Tamper/ Bad Terminal Key": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Terminal Has To Be Replaced"
+    ]
+  },
+  "Transaction Failed": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check The Terminal Connectivity",
+      "Check The Transaction In Online",
+      "Verify The Decline Reason."
+    ]
+  },
+  "No response": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check How Many Transactions And How Many Cards",
+      "Check The Transactions",
+      "If There Is An Issue Contact The Data Center Team To Check The System Status",
+      "Verify With The Data Center Team If There Is Any Issue With The System."
+    ]
+  },
+  "Incorrect/ Invalid Password.": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check The Transaction Type And The Correct Password In The System"
+    ]
+  },
+  "Terminal Lock": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Settle The Terminal"
+    ]
+  },
+  "Socket Failed": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Remove The Sim Card And Reinstall It.",
+      "Restart The Terminal"
+    ]
+  },
+  "POS Display \"Communication Error\"": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check If The Telephone Line Is Physically Connected To The Terminal",
+      "Check If The Telephone Line Is Working By Asking The Merchant To Make A Call Using The Same Line Connected To The Terminal",
+      "Check The Signal Bar On The Terminal Screen",
+      "If Yes Tech Staff Has To Visit The Merchant & Check The Terminal To See If It Can Be Fixed Or Has To Be Replaced",
+      "Move The Terminal To A Different Location To Get Better Signal.",
+      "Restart The Terminal"
+    ]
+  },
+  "Must do Settle.": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Ask The Customer To Settle The Batch"
+    ]
+  },
+  "Shared Information With Third Party": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Systems T24 & Prime",
+      "Check The Transaction",
+      "Contact Customer",
+      "Contact Customer And Inform Accordingly",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa"
+    ]
+  },
+  "Verification Of Document/ Security": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "Check The Issue And Process It",
+      "Process Customer Application",
+      "Process The Request",
+      "Rectify Technical Error"
+    ]
+  },
+  "Salary not Credited": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Request for Salary Upload File Training": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Request for Rejection List": {
+    "root_causes": [
+      "Human Error",
+      "Incomplete Documents",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Request for Reason of Rejecting Salary Instruction": {
+    "root_causes": [
+      "Human Error",
+      "Incomplete Documents",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Amount is Blocked in WPS Payment": {
+    "root_causes": [
+      "Branch Delay",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Customer Account And Provide The Necessary Details",
+      "Release The Locked Amount"
+    ]
+  },
+  "Enquiry on Credited Payment Source": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Enquiry on Payment Status": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Unable to Complete File Upload": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Call The Customer To Explain How To Use Uploading  File",
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error",
+      "Rectify Technical Issue"
+    ]
+  },
+  "WPS Registration Request not Processed": {
+    "root_causes": [
+      "Human Error",
+      "Incomplete Documents",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "File Processing Failed": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Upload File for Bulk Payments": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Enquiry on Salary File Upload": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Enquiry on Registration Status": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Ask Customer to Submit WPS Registration Application",
+      "Check If Email ID is Updated in System"
+    ]
+  },
+  "File Remains in Execution in Progress Status": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Files not Available in Approval Queue": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Duplicate Amount Debited": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Bancassurance Ops to investigate and update the customer",
+      "Check Customer Account Statement",
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Contact COPS and rectify maintenance error",
+      "Contact Customer And Inform Accordingly",
+      "Inform Customer And Reprocess",
+      "Rectify Technical Error",
+      "Refund the Amount"
+    ]
+  },
+  "Social Benefit Allowance not Received": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires"
+    ]
+  },
+  "Bulk payment Access not Linked": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Check The Details  And Rectify The Customer Details"
+    ]
+  },
+  "Enquiry on Social Benefit Allowance": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires"
+    ]
+  },
+  "File Remains in Approved Status": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Approve Uploaded File": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Host\u00a0not Available Error on Salary File Upload Page": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Initiation/Approval Screen not Available for User": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Issue in Approval Workflow": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Salary not Debited": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Request to Open a New Corporate Account": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Call The Customer To Fill Application",
+      "Contact Customer For Missing Documents",
+      "Open Account",
+      "Process Customer Application"
+    ]
+  },
+  "Card Offers Related Issues": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Merchant And Customer For Investigation And Further Required Evidence",
+      "Rectify"
+    ]
+  },
+  "Shukran Points not Updated": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Card in Prime and Add Points",
+      "Contact Merchant",
+      "Rectify Technical Issue"
+    ]
+  },
+  "Lounge Service Related Issues": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Ask Customer To Fill Up Lounge Key Dispute Resolution Form"
+    ]
+  },
+  "Gift not Received": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact The Customer",
+      "check with Asalah team if the Gift is received",
+      "contact the ARM"
+    ]
+  },
+  "Request to Transfer Gift to another Branch": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact The Customer",
+      "check with Asalah team if the Gift is received",
+      "contact the ARM"
+    ]
+  },
+  "Request To Issue Normal Debit Card": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check T24",
+      "Collect Destroyed Card From Customer",
+      "Inform Customer And Reprocess",
+      "Obtain The Necceary Approval And Complete The Request.",
+      "Verify If The Request Is As Per The Bank Policy"
+    ]
+  },
+  "Request To Issue APLD Renewal Card": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check T24",
+      "Check The Account",
+      "Check The Cause Of Delay And Rectify",
+      "Contact Customer If Necessary",
+      "Issue New Card"
+    ]
+  },
+  "Issue with Redeeming Offers in Entertainer App": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Rectify Technical Error"
+    ]
+  },
+  "Issue with Merchant in the Entertainer App": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Merchant"
+    ]
+  },
+  "Entertainer App is not Working in Mbanking": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Rectify  Technical  Error"
+    ]
+  },
+  "Chauffeur Service Related Issues": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Apologise And Rectify",
+      "Contact The Merchant And Resolve The Issue With The Customer"
+    ]
+  },
+  "Downgrade Request of Account not done": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Entertainer App Option is not Visible in Mbanking": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Contact The Customer"
+    ]
+  },
+  "Deliver of Reissue/Replace/Renew APLD Debit card to overseas customer": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Issue New Card"
+    ]
+  },
+  "Upgrade Request of Account not done": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact The Customer",
+      "Contact the customer for the missing details",
+      "Process Customer Application",
+      "Rectify",
+      "Request Customer To Submit A New Request At The Branch"
+    ]
+  },
+  "Enquiry on Loan Facilities": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Request for Finance Waiver": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Contact Customer If Necessary",
+      "Inform Customer To Visit Nearest Branch Or Ho With Required Documentation",
+      "Rectify"
+    ]
+  },
+  "Request for Loan": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Contact Customer If Necessary",
+      "Inform Customer To Visit Nearest Branch Or Ho With Required Documentation",
+      "Rectify"
+    ]
+  },
+  "Request for Finance": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Contact Customer If Necessary",
+      "Inform Customer To Visit Nearest Branch Or Ho With Required Documentation",
+      "Rectify"
+    ]
+  },
+  "Request for Release of End of Service Benefit": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Contact Customer If Necessary",
+      "Inform Customer To Visit Nearest Branch Or Ho With Required Documentation",
+      "Rectify"
+    ]
+  },
+  "Request for Loan Reschedule": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Contact Customer If Necessary",
+      "Inform Customer To Visit Nearest Branch Or Ho With Required Documentation",
+      "Rectify"
+    ]
+  },
+  "Request For Finance Reschedule": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Contact Customer If Necessary",
+      "Inform Customer To Visit Nearest Branch Or Ho With Required Documentation",
+      "Rectify"
+    ]
+  },
+  "Request for Finance Settlement": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Contact Customer If Necessary",
+      "Inform Customer To Visit Nearest Branch Or Ho With Required Documentation",
+      "Rectify"
+    ]
+  },
+  "Loan Deferment requests Due to Natural Disaster Situations": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Check Document And Rectify",
+      "Contact Customer  Verify Details",
+      "Escalation To Concerned Stakeholder"
+    ]
+  },
+  "Request for Loan Waiver": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Contact Customer If Necessary",
+      "Inform Customer To Visit Nearest Branch Or Ho With Required Documentation",
+      "Rectify"
+    ]
+  },
+  "Request for Loan Settlement": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Contact Customer If Necessary",
+      "Inform Customer To Visit Nearest Branch Or Ho With Required Documentation",
+      "Rectify"
+    ]
+  },
+  "LC Murabaha Pre-Settlement Request Not Processed": {
+    "root_causes": [
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check The Issue And Process It"
+    ]
+  },
+  "LC Murabaha not Processed": {
+    "root_causes": [
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check The Issue And Process It"
+    ]
+  },
+  "Wrong Details Mentioned in LC Murabaha": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "LC Murabaha Pre-Settlement profit rate Taken Wrongly": {
+    "root_causes": [
+      "Customer Request",
+      "System Error"
+    ],
+    "actions": [
+      "Advise Correct Calculation To The Customer",
+      "Ask Cad Team To Recheck Rates And Update Accordingly."
+    ]
+  },
+  "LC Murabaha Recovery not Processed": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check The Issue And Process It"
+    ]
+  },
+  "Wrong Profit Rate Applied": {
+    "root_causes": [
+      "Customer Request",
+      "System Error"
+    ],
+    "actions": [
+      "Advise Correct Calculation To The Customer",
+      "Ask Cad Team To Recheck Rates And Update Accordingly."
+    ]
+  },
+  "Wrong Details Mentioned in LTR": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Process The Request"
+    ]
+  },
+  "Wrong Foreign Exchange Rates Applied": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Advise Correct Calculation To The Customer",
+      "Ask Cad Team To Recheck Rates And Update Accordingly.",
+      "Check The Issue And Process It"
+    ]
+  },
+  "LTR not Processed": {
+    "root_causes": [
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Request for LC Murabaha Status": {
+    "root_causes": [
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Check the status and provide it to the customer",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for LC Murabaha Partial Settlement Status": {
+    "root_causes": [
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Check the status and provide it to the customer",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for LC Murabaha Pre-Settlement Status": {
+    "root_causes": [
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Check the status and provide it to the customer",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Advance not Processed": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Check internally",
+      "Rectify"
+    ]
+  },
+  "Direct Remittance not Processed": {
+    "root_causes": [
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Pre-Settlement Interest Taken Wrongly": {
+    "root_causes": [
+      "Staff Delay"
+    ],
+    "actions": [
+      "Request For Reversal Of Amount"
+    ]
+  },
+  "Wrong Interest Rate Applied": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Delay in Processing LTR Pre-Settlement Request": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Contact The Customer And Inform Them"
+    ]
+  },
+  "LTR Recovery not Processed": {
+    "root_causes": [
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check internally",
+      "Rectify"
+    ]
+  },
+  "Enquiry on Financial Facilities": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Incorrect Rate/ Commission/ Charges": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "Check The Issue And Process It",
+      "Process Customer Application",
+      "Process The Request",
+      "Rectify Technical Error"
+    ]
+  },
+  "Cash not received": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check the transaction in prime/ contact the customer if extra information is required /Contact the other bank / Raise a dispute for the customer",
+      "Check the transaction in t24/ contact the customer if extra information is required /Contact the other bank"
+    ]
+  },
+  "Partial amount received": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check The Tranasction And Provide A Statemnt To The Merchant",
+      "Check the transaction in prime/ contact the customer if extra information is required /Contact the other bank / Raise a dispute for the customer",
+      "Check the transaction in t24/ contact the customer if extra information is required /Contact the other bank"
+    ]
+  },
+  "Amount Debited More than Once": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Card Services To Investigate The Issue And Rectify",
+      "Check The Systems T24 & Prime",
+      "Check The Transaction And Reverse The Duplicate Transaction",
+      "Check the transaction in prime/ contact the customer if extra information is required /Contact the other bank / Raise a dispute for the customer",
+      "Check the transaction in t24/ contact the customer if extra information is required /Contact the other bank",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa"
+    ]
+  },
+  "Crisis Case - POS Transaction Failed but Amount Debited": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Systems T24 & Prime",
+      "Contact Merchant",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa"
+    ]
+  },
+  "Crisis Case - Cash not Received": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check the transaction in t24/ contact the customer if extra information is required /Contact the other bank"
+    ]
+  },
+  "Customer Appreciates Staff": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact the customer for the missing details",
+      "Escalate it to the concern Dept. or Branches",
+      "Thank the customer"
+    ]
+  },
+  "Sharia Enquires": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires"
+    ]
+  },
+  "Delay in Processing New POS Machine Request": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Ask Him To Fill The Agrrement And The Applicaition",
+      "Contact The Merchant",
+      "Verify The Merchant And Obtain Bank Management Approval"
+    ]
+  },
+  "New Merchant Outlet": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Ask Him To Fill The Agrrement And The Applicaition",
+      "Contact The Merchant",
+      "Verify The Merchant And Obtain Bank Management Approval"
+    ]
+  },
+  "Request to change the account linked to the merchant ID": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Obtain The Necceary Approval And Complete The Request.",
+      "Verify If The Request Is As Per The Bank Policy"
+    ]
+  },
+  "Change POS Type": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Ask The Merchant To Submit An Offecial Request And Obtain The Required Approvals. Then Forward To The Pos Technical Team To Excute The Amendments."
+    ]
+  },
+  "Change the email , phone number": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Verify And Update"
+    ]
+  },
+  "Address Change": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Obtain The Necceary Approval And Complete The Request.",
+      "Verify If The Request Is As Per The Bank Policy"
+    ]
+  },
+  "Additional Terminal Request": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Ask Him To Fill The Agrrement And The Applicaition",
+      "Contact The Merchant",
+      "Verify The Merchant And Obtain Bank Management Approval"
+    ]
+  },
+  "Amex Not working.": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check If Ids Are Updated In Prime & Tms",
+      "Check If The Merchant Has Amex Id.",
+      "Perform Remote Download."
+    ]
+  },
+  "No Manual Key entry": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check If The Merchant Is Got An Approval For The Transaction",
+      "If no",
+      "If yes",
+      "Transaction Type Is Not Allowed For The Merchant",
+      "guide the customer on how to apply to get the requested service.",
+      "update the terminal in the system and perform the remote download."
+    ]
+  },
+  "Merchant Commission amendment request": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Ask The Merchant To Submit An Offecial Request And Obtain The Required Approvals. Then Forward To The Pos Admin Team To Excute The Amendments."
+    ]
+  },
+  "Amex/Diners card Not working in PG": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check If The Merchant Has An Agreement With Amex Or Dinners And Update In The System"
+    ]
+  },
+  "New User Addition Request not Processed": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Ask Him To Fill The Agrrement And The Applicaition",
+      "Contact The Merchant",
+      "Verify The Merchant And Obtain Bank Management Approval"
+    ]
+  },
+  "Queuing System not Working": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Apologise And Rectify",
+      "Contact The Customer To Understand The Issue"
+    ]
+  },
+  "Inaccurate information Provided by Staff": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Apologise And Rectify",
+      "Contact The Customer To Understand The Issue"
+    ]
+  },
+  "Staff is not Aware of Product/ Service Information": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Apologise And Rectify",
+      "Contact The Customer To Understand The Issue"
+    ]
+  },
+  "Referred Customer to Another Branch or Head Office without Providing the Service": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Apologise And Rectify",
+      "Contact The Customer To Understand The Issue"
+    ]
+  },
+  "Allowed Another Customer to Jump the Queue": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Apologise And Rectify",
+      "Contact The Customer To Understand The Issue"
+    ]
+  },
+  "Customer was not Served due to Branch Systems Down": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Apologise And Rectify",
+      "Contact The Customer To Understand The Issue"
+    ]
+  },
+  "Staff Pressured Customer to Take Service/ Product": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Apologise And Rectify",
+      "Contact The Customer To Understand The Issue"
+    ]
+  },
+  "Staff did not Commit to Promise/ Service within the Timeframe": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Apologise And Rectify",
+      "Contact The Customer To Understand The Issue"
+    ]
+  },
+  "Product/ Service Initiated Without Customer Knowledge": {
+    "root_causes": [
+      "Customer Request",
+      "Signature Issue"
+    ],
+    "actions": [
+      "Accordingly Take Necessary Action",
+      "Branch Has To Direct The Customer To Contact Metlife Call Center",
+      "Check Customer Aof Form",
+      "Check Prime And Omniflow",
+      "Check T24",
+      "Check The Systems T24 & Prime",
+      "Close Account",
+      "Contact Customer  Verify Details",
+      "Investigate",
+      "Raise To Visa",
+      "The Branch Has To Send An Email To Bacuassurance Team Who Should Send A Request To Metlife Insurance Company"
+    ]
+  },
+  "Staff was Disrespectful to the Customer": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Apologise And Rectify",
+      "Contact The Customer To Understand The Issue"
+    ]
+  },
+  "Kiosk Machine out of Service": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check If Email ID is Updated in System"
+    ]
+  },
+  "Payment Partially Processed": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accrdingly",
+      "Rectify Isssue"
+    ]
+  },
+  "Enquiry On Payment Confirmation Letter": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Payment Credited To Wrong Beneficiary Within Bank": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accrdingly",
+      "Rectify Isssue"
+    ]
+  },
+  "Duplicate Amount Credited": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Contact COPS and rectify maintenance error",
+      "Contact Customer And Inform Accordingly",
+      "Inform Customer And Reprocess",
+      "Rectify Technical Error"
+    ]
+  },
+  "Request For Archived Transaction Details": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Process The Request"
+    ]
+  },
+  "Request For Archived Payment Instruction Letter": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accrdingly",
+      "Process The Request"
+    ]
+  },
+  "Payment not Processed": {
+    "root_causes": [
+      "Branch Delay",
+      "Human Error",
+      "Operational Issue",
+      "Signature Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accrdingly",
+      "Rectify Isssue"
+    ]
+  },
+  "Wrong Interest Debited": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Customer Request",
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check If Customer Details Are Updated",
+      "Escalate To It Teams To Check And Rectify",
+      "No Request Found From Customer"
+    ]
+  },
+  "Request To Stop Payment": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Process The Request"
+    ]
+  },
+  "Request For Reason Of Rejecting Payment Instruction": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "Signature Issue"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Process The Request"
+    ]
+  },
+  "Request For Reason Of Rejecting Beneficiary Payment": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Process The Request"
+    ]
+  },
+  "Request for Payment Status": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check The Issue And Process It",
+      "Check internally",
+      "Contact The Customer And Inform Them",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request For Reason Of Payment reversal": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Process The Request"
+    ]
+  },
+  "Wrong Amount Transferred To Beneficiary": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Customer Request",
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Request For Status Of Wages Protection System Registration": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check If Customer is Using the Latest Excel Format",
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Request for Source of Credited Payment": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Process The Request"
+    ]
+  },
+  "Safe Deposit Locker Creation not Processed": {
+    "root_causes": [
+      "Branch Delay",
+      "Human Error",
+      "Incomplete Documents",
+      "Operational Issue",
+      "Signature Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Inform Customer And Reprocess",
+      "Rectify Isssue",
+      "Request Customer To Submit A New Request At The Branch"
+    ]
+  },
+  "Enquiry on Safe Deposit Lockers Payments": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Address the Enquires"
+    ]
+  },
+  "Security Deposit Amount Debited more than Once": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Account Statement",
+      "Refund the Amount"
+    ]
+  },
+  "Safe Deposit Locker Cancellation not Processed": {
+    "root_causes": [
+      "Branch Delay",
+      "Human Error",
+      "Incomplete Documents",
+      "Operational Issue",
+      "Signature Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Inform Customer And Reprocess",
+      "Rectify Isssue",
+      "Request Customer To Submit A New Request At The Branch"
+    ]
+  },
+  "Security Deposit Amount not Reversed": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Account Statement",
+      "Refund the Amount"
+    ]
+  },
+  "Presentation Acceptance Memo not Received": {
+    "root_causes": [
+      "Incomplete Documents",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check The Issue And Process It",
+      "Contact Customer And Inform Accordingly",
+      "Process The Request"
+    ]
+  },
+  "Mismatch Details in Presentation Acceptance Memo": {
+    "root_causes": [
+      "Customer Request",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Wrong charges applied": {
+    "root_causes": [
+      "Customer Request",
+      "System Error"
+    ],
+    "actions": [
+      "Advise Correct Calculation To The Customer",
+      "Ask Cad Team To Recheck Rates And Update Accordingly."
+    ]
+  },
+  "Documents not Processed": {
+    "root_causes": [
+      "Incomplete Documents",
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify",
+      "Check The Issue And Process It",
+      "Contact Customer For Missing Documents"
+    ]
+  },
+  "Advanced Statement not Received via Email": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Advise customer to update Email",
+      "Send The Statement",
+      "Update The Email Id"
+    ]
+  },
+  "Request for cancellation": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "& Policy number & send it directly to MetLife Gulf through this email: CS_DMGulf@metlife.com",
+      "Branch request the customer to write a cancelation letter mentioning : Full Name",
+      "Branch staff can also take the cancelation request letter and send it to MetLife email: CS_DMGulf@metlife.com",
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Customer contact MetLife call center at 80000700 and place his cancelation",
+      "GSM",
+      "Inform Customer And Reprocess",
+      "Initiate Recall Or Ask Customer To Initiate Recall Depending On Source Of Error",
+      "Sales staff Should Direct The Customer",
+      "The Matter Has Been Handled By The Insurance Company",
+      "The customer can also contact Bank Muscat call center and raise a request of cancelation that gets transferred to MetLife"
+    ]
+  },
+  "Claim not settled": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Banca Operation to investigate and update the customer",
+      "To Send An Email To Bancassurance Team"
+    ]
+  },
+  "Certificate of Insurance not received": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Branch Has To Make A Request To Bancassurance Busniess Team",
+      "The Branch Has To Send The Request Via Email To Bussines Team"
+    ]
+  },
+  "Policy not received": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "The Branch Has To Send An Email To Bacuassurance Team Who Should Send A Request To Metlife Insurance Company",
+      "The Matter Has Been Handled By The Insurance Company",
+      "The branch should send an email to Bancassurance Business Team"
+    ]
+  },
+  "Policy not renewed": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Branch Has To Make A Request To Bancassurance Busniess Team",
+      "The Branch Has To Send An Email To Bacuassurance Team Who Should Send A Request To Metlife Insurance Company",
+      "The Matter Has Been Handled By The Insurance Company",
+      "The branch should send an email to Bancassurance Business Team"
+    ]
+  },
+  "Request for claim": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Branch Has To Direct The Customer To Contact Metlife Call Center",
+      "Branch Has To Make Sure That The Requied Documents Are Completed And Shared With Bancassurance Claim Manager ( Issa Faqer )",
+      "Branch should send the case along with the required attachments to Takaful Oman team : \u2022Wafa : wafaas@takafuloman.om. \u2022Fathiya : fathiya@takafuloman.om \u2022Salim : salimms@takafuloman.om \u2022Bank Muscat: BankMuscatClaims@takafuloman.om  \u2022Copying (cc) : BancassuranceBusinessTeam@bankmuscat.com Any they may contact the helpline number 22701600 or communicate via WhatsApp 22303012",
+      "The Matter Has Been Handled By The Insurance Company",
+      "The branch should send an email to Bancassurance Business Team"
+    ]
+  },
+  "Refund is not received": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Banca Operation to investigate and update the customer",
+      "Branch Has To Check With Bancassurance Business Team",
+      "Branch Should Send An Email To Bancassurance Operations",
+      "Contact Customer",
+      "Rectify",
+      "Refund request initiated with insurance company",
+      "The Matter Has Been Handled By The Insurance Company",
+      "The branch should send an email to Bancassurance Business Team"
+    ]
+  },
+  "Premium not debited": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Banca Operation to investigate and update the customer",
+      "Branch Should Send An Email To Bancassurance Operations",
+      "Branch should send an email to Bancassurance Business team",
+      "The Matter Has Been Handled By The Insurance Company",
+      "To Send An Email To Bancassurance Team"
+    ]
+  },
+  "Credit Card Claims not Paid": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Branch should send the case along with the required attachments to Takaful Oman team : \u2022Wafa : wafaas@takafuloman.om. \u2022Fathiya : fathiya@takafuloman.om \u2022Salim : salimms@takafuloman.om \u2022Bank Muscat: BankMuscatClaims@takafuloman.om  \u2022Copying (cc) : BancassuranceBusinessTeam@bankmuscat.com Any they may contact the helpline number 22701600 or communicate via WhatsApp 22303012"
+    ]
+  },
+  "Certificate  not received/Issued": {
+    "root_causes": [
+      "Branch Delay",
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Inform The Customer About Incomplete Details Or Reason  For Rejection  Like Active Credit Card Or Unpaid Liabilities",
+      "Inform The Customer About Incomplete Details. Branch Submits  The Documents"
+    ]
+  },
+  "Request to Update Re-KYC for Overseas Customers": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check Additional Services Application",
+      "Contact Customer If Necessary"
+    ]
+  },
+  "Blocked / Debited Amount": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check Prime And Update The Payment By Card Customer Service",
+      "Check T24",
+      "Release The Locked Amount"
+    ]
+  },
+  "Payment Delayed to Other Party": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Advise customer of missing documents. Expidite processing to avoid furhter delays",
+      "Rectify",
+      "Work In Progress"
+    ]
+  },
+  "Loan Amount Locked": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check The Account",
+      "Contact Customer",
+      "Rectify",
+      "Rectify Technical Error",
+      "Release The Locked Amount"
+    ]
+  },
+  "Delay in Releasing of Mulkiya (Registration Certificate)": {
+    "root_causes": [
+      "Back Office Delay"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accrdingly",
+      "Escalation To Concerend Stakholder",
+      "Escalation To Concerned Stakeholder",
+      "Rectify"
+    ]
+  },
+  "Wrong Amount Sent to Other Bank for Settlement": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Wrong Details Mentioned in the Covering Schedule": {
+    "root_causes": [
+      "Customer Request",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Export Proceeds not Received": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check The Issue And Process It"
+    ]
+  },
+  "Wrong Details Mentioned in Debit/ Credit Advice": {
+    "root_causes": [
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Enquiry on Export LC Negotiation": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "Contact The Customer For Additional Details"
+    ]
+  },
+  "LC not Advised to Beneficiary": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Incomplete Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check The Issue And Process It",
+      "Process The Request",
+      "Rectify"
+    ]
+  },
+  "Request for Debit Advice": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Check the status and provide it to the customer",
+      "Process The Request",
+      "Provide Confirmation Request",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "General Enquiry On Export Documentary Collection": {
+    "root_causes": [
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Contact The Customer And Inform Them"
+    ]
+  },
+  "Transaction not Debited": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Files not Moving from SFTP In-Folder": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Encryption Error during File Transfer": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Transaction not Credited": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Request for Cheque Copy": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check Customer Account Statement"
+    ]
+  },
+  "Wrong Charges Applied/ Limits": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Details",
+      "Inform Customer And Reprocess",
+      "Inform Customer If Reason Like Amount Not Available Or Signature Different. If Human Error Of Bm Staff",
+      "Rectify Isssue"
+    ]
+  },
+  "Request for Remote Deposit Capture Training": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Transaction Details Before 2017": {
+    "root_causes": [
+      "Branch Delay"
+    ],
+    "actions": [
+      "Branch needs to check Customer Application",
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Check The Transaction",
+      "Check the transaction in t24/ contact the customer if extra information is required /Contact the other bank",
+      "Rectify Isssue",
+      "Request Customer For Missing Documents",
+      "Request Customer To Submit A New Request At The Branch",
+      "Request For Reversal Of Amount",
+      "Reverse Amount"
+    ]
+  },
+  "Request for Reason of Cheque Return": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Account Statement"
+    ]
+  },
+  "Issues in RDC Re-Installation": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Re-Installation of RDC"
+    ]
+  },
+  "Scanner not Working/Cartridge Issues": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Enquiry on Remote Deposit Capture Setup": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Request for RDC Setup": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Guide The Customer On How To Login",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to login": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Issue And Rectify",
+      "Guide The Customer On How To Login",
+      "Rectify Technical Error"
+    ]
+  },
+  "Request for VPN Form": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact The Customer And Inform Them",
+      "Rectify Technical Error"
+    ]
+  },
+  "Tap and Go Application Request not Processed": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Ask Him To Fill The Agrrement And The Applicaition",
+      "Contact The Merchant",
+      "Verify The Merchant And Obtain Bank Management Approval"
+    ]
+  },
+  "Web Portal Access not Activated": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact The Merchant And After The Verification Activiate The Merchant."
+    ]
+  },
+  "Unable to Access or Use the Application": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact The Merchant And After The Verification Activiate The Merchant."
+    ]
+  },
+  "Loan Matured but Title Deed (Mulkiya) not Released": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Process The Request"
+    ]
+  },
+  "Loan Settled by Cash but Title Deed (Mulkiya) not Released": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Process The Request"
+    ]
+  },
+  "Takeover Loan by other Bank but Title Deed (Mulkiya) not Released": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Process The Request"
+    ]
+  },
+  "Wrong Details mentioned in the bank": {
+    "root_causes": [
+      "Customer Request",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Payment not Affected on Time": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check The Issue And Process It"
+    ]
+  },
+  "Loan With Waiver but Installment Taken": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Release The Block"
+    ]
+  },
+  "Multiple Installments Taken": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Blocked Loan Installment for Non Salary Credits": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check T24",
+      "Check The Account",
+      "Check The Systems T24 & Prime",
+      "Contact Customer",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa",
+      "Rectify",
+      "Rectify Technical Error",
+      "Release The Block",
+      "Release The Locked Amount"
+    ]
+  },
+  "Loan Installment Blocked/ Debited From Wrong Salary Account": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check T24",
+      "Release The Block"
+    ]
+  },
+  "Incorrect Amount Debited": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Systems T24 & Prime",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa",
+      "Verify And Update"
+    ]
+  },
+  "Transaction paid by other means card / cash": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Systems T24 & Prime",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa"
+    ]
+  },
+  "Promised Credit/ Refund not Received from Merchant": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Systems T24 & Prime",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa"
+    ]
+  },
+  "Unknown/ Unauthorized Fraud Transaction": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Systems T24 & Prime",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa"
+    ]
+  },
+  "Transaction Failed but Amount Debited": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Systems T24 & Prime",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa"
+    ]
+  },
+  "Goods not Received/ Service not Provided": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check Additional Services Application",
+      "Check The Systems T24 & Prime",
+      "Contact Customer For Missing Documents",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa"
+    ]
+  },
+  "nan": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Systems T24 & Prime",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa"
+    ]
+  },
+  "Membership Cancelled but Amount Debited": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Systems T24 & Prime",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa"
+    ]
+  },
+  "Transaction Paid by Other Means Card/ Cash": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Systems T24 & Prime",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa"
+    ]
+  },
+  "Registered Beneficiary not Available in Initiation Screen": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Activate Soft Token": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Understand the issue and help Customer in activation of soft token"
+    ]
+  },
+  "Activation Error during Transaction Initiation/ Approval": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Share process manual for Soft token pin reset with Customer"
+    ]
+  },
+  "Enquiry on Soft Token Application": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Share process manual for Soft token pin reset with Customer"
+    ]
+  },
+  "Secure Token not Active": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "System Error"
+    ],
+    "actions": [
+      "Check If The Token Is Linked And Activated",
+      "Contact The Customer"
+    ]
+  },
+  "Unable to Apply for Cheque Book": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "QR Code not Working/ Displayed": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Resolve issue with Bank IT support and inform Customer to retry again"
+    ]
+  },
+  "Slowness in Soft Token Application": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Advise Customer to re-install app and re-register"
+    ]
+  },
+  "Unable to View All Accounts in Archived Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Guide The Customer On How To Login",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Approve Transaction": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Secure Token Locked due to Wrong Attempts": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Activate the Token",
+      "Branch needs to check Customer Application"
+    ]
+  },
+  "Transaction not Available in Detailed Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Approve the Beneficiary": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "User ID Disabled": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Add/Delete Beneficiary": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Rectify Technical Error"
+    ]
+  },
+  "Transaction not Available in MT940 Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify  Technical  Error"
+    ]
+  },
+  "Unable to Initiate Transaction": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "unable to Add New Currency": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Virtual Account Structure not Updated": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Virtual Account Structure not Created": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable To View All Accounts": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Rectify Technical Error"
+    ]
+  },
+  "OTP Facility Disabled": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to View Virtual Accounts": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Rectify Technical Error"
+    ]
+  },
+  "Request for Bulk File Cancellation / Recall": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Enquiry on Reset Password": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Enquiry on Retrieve Corporate / User ID": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Unable to Block Debit Card": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to View All Accounts in Advanced Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Guide The Customer On How To Login",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Generate Archived Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Download VAT Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Guide The Customer On How To Login",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Generate MT940 Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Transaction not Available in Advanced Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to View All Accounts in MT940": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Download SWIFT Advice": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to View All Accounts in Detailed Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Guide The Customer On How To Login",
+      "Rectify Technical Error"
+    ]
+  },
+  "Transaction not Available in Approval Queue": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Generate Detailed Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Block Credit Card": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Rectify Technical Error"
+    ]
+  },
+  "Future Dated Transaction Status not Available in Transaction History": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Generate Advance Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Download Advanced Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Guide The Customer On How To Login",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable To Download Detailed Statement": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Guide The Customer On How To Login",
+      "Rectify Technical Error"
+    ]
+  },
+  "Unable to Apply for Standing Order": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Enquiry on Option MT940": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Enquiry on Reason of Transaction Failure": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Request for Transaction Status": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check Document And Rectify",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Host not Available Error Received during File Transfer": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Password Creation/Reset Link not Received via Email": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Advise customer to update Email",
+      "Contact Customer And Inform Accordingly",
+      "Rectify  Technical  Error"
+    ]
+  },
+  "OTP not Accepted": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "MT940 Not Received through B2B": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Inquiry Information Provided",
+      "Rectify Technical Error"
+    ]
+  },
+  "Incorrect Transaction Tag Used in MT940 File": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Incorrect Discrepancy Summary Details": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Status of File Upload not Received": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "OTP Error during Transaction Initiation/Approval": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error",
+      "Resolve issue with Bank IT support and inform Customer to retry again"
+    ]
+  },
+  "Missing Information Added": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify  Technical  Error"
+    ]
+  },
+  "SWIFT Code not Available": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Transaction Banking Page Blank": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Archived Statement not Received via Email": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Advise customer to update Email",
+      "Send The Statement",
+      "Update The Email Id"
+    ]
+  },
+  "CSR File not Received": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Error during File Transfer": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Transaction Details not Updated": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Enquiry on Locked Secure Token": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Enquiry on Lost Secure Token": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Soft Token Application not Working": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Advise Customer to re-install app and re-register"
+    ]
+  },
+  "Soft Token Locked due to Wrong Attempts": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Share process manual for Soft token pin reset with Customer"
+    ]
+  },
+  "Notification not Received on Soft Token App": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Resolve issue with Bank IT support and inform Customer to retry again"
+    ]
+  },
+  "Request to Transfer Amount for Overseas Customer": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Check Customer Account Statement",
+      "Check Customer Details",
+      "Check Document And Rectify",
+      "Contact The Customer For Additional Details",
+      "Contact the customer for the missing details",
+      "Process The Request",
+      "Provide Confirmation Request"
+    ]
+  },
+  "Request to Correct Beneficiary Details": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error"
+    ],
+    "actions": [
+      "Check Customer Details Initiate Recall Or Ask Customer To Initiate Recall Depending On Source Of Error",
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Inform Customer And Reprocess",
+      "Inform Customer To Visit Nearest Branch Or Ho With Required Documentation",
+      "Initiate Recall Or Ask Customer To Initiate Recall Depending On Source Of Error"
+    ]
+  },
+  "Request to Report Fraud/ Recall": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Inform Customer To Visit Nearest Branch Or Ho With Required Documentation"
+    ]
+  },
+  "Request for Transfer Confirmation": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "Payment Pending",
+      "Signature Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Details Ft Number",
+      "Check The Account",
+      "Check The Customer Account And Provide The Necessary Details",
+      "Check With The Technical Team  And Get Back To The Customer",
+      "Check With The Technical Team  And Get Back To The Customer. If Human Error Of Bm Staff",
+      "Inform Customer And Reprocess",
+      "Rectify Isssue",
+      "Send Benificary Correction Request To Other Bank",
+      "Send Cancellation Request  To Other Bank"
+    ]
+  },
+  "Finance Installment Blocked/ Debited From Wrong Salary Account": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check The Account",
+      "Release The Block"
+    ]
+  },
+  "Financing Settlement not Done": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Invalid Documents",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Escalation To Concerned Stakeholder",
+      "Follow Up Initiated",
+      "Rectify",
+      "Work In Progress"
+    ]
+  },
+  "Locked Financing Amount": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Account",
+      "Contact Customer",
+      "Rectify",
+      "Rectify Technical Error",
+      "Release The Locked Amount"
+    ]
+  },
+  "Delay In Rescheduling the Financing": {
+    "root_causes": [
+      "Branch Delay",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Contact Customer And Inform Accrdingly",
+      "Escalation To Concerend Stakholder",
+      "Escalation To Concerned Stakeholder",
+      "Follow Up Initiated",
+      "Rectify",
+      "Work In Progress"
+    ]
+  },
+  "Blocked Installment /Multipule Installments Taken": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Account",
+      "Contact Customer",
+      "Rectify",
+      "Rectify Technical Error",
+      "Release The Locked Amount"
+    ]
+  },
+  "Multiple Installments Taken (Hovering )": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Delay in Release of Title Deed (Mulkiya)": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Delay In Financing/Amendment Processing": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Customer Request",
+      "Customer Retraction",
+      "Incomplete Documents",
+      "Invalid Documents",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Contact Customer And Inform Accrdingly",
+      "Escalation To Concerend Stakeholder",
+      "Escalation To Concerned Stakeholder",
+      "Rectify"
+    ]
+  },
+  "Child Account not Linked to Guardian": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check Customer Aof Form",
+      "Contact Customer",
+      "Modify The Account",
+      "Rectify"
+    ]
+  },
+  "Request for Fixed Deposit Cancellation": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Wrong SMS Received": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Recitfy Techncial Issues",
+      "Update Customer Details"
+    ]
+  },
+  "Wrong Email Received": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Details",
+      "Check If Customer Details Are Updated",
+      "Rectify The Error"
+    ]
+  },
+  "Floosi Account not Linked to Guardian": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check Customer Aof Form",
+      "Contact Customer",
+      "Modify The Account",
+      "Rectify"
+    ]
+  },
+  "Account not Opened through Internet Banking": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Incomplete Documents",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Call The Customer To Fill Application",
+      "Contact Customer For Missing Documents",
+      "Open Account",
+      "Verify If The Request Is As Per The Bank Policy"
+    ]
+  },
+  "Account not Opened through Mobile Banking": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Incomplete Documents",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Call The Customer To Fill Application",
+      "Contact Customer For Missing Documents",
+      "Open Account",
+      "Verify If The Request Is As Per The Bank Policy"
+    ]
+  },
+  "Amount Credited with Wrong Exchange Rate": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Details Initiate Recall Or Ask Customer To Initiate Recall Depending On Source Of Error",
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Inform Customer And Reprocess"
+    ]
+  },
+  "Non Receipt of Funds": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check Customer Details Initiate Recall Or Ask Customer To Initiate Recall Depending On Source Of Error",
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Inform Customer And Reprocess"
+    ]
+  },
+  "Funds not Credited": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Details  And Rectify The Customer Details",
+      "Inform Customer And Reprocess"
+    ]
+  },
+  "Amount Credited with Wrong Currency": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check Customer Details Initiate Recall Or Ask Customer To Initiate Recall Depending On Source Of Error",
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Inform Customer And Reprocess"
+    ]
+  },
+  "LC Draft not Received": {
+    "root_causes": [
+      "Customer Request",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check The Issue And Process It"
+    ]
+  },
+  "LC Terms and Conditions not as per LC Application": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "LC not Cancelled After Receipt of Cancellation Notice": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Process The Request"
+    ]
+  },
+  "LC not Issued": {
+    "root_causes": [
+      "Staff Delay"
+    ],
+    "actions": [
+      "Process The Request"
+    ]
+  },
+  "Standing Instruction not Done": {
+    "root_causes": [
+      "Branch Delay",
+      "Human Error",
+      "Incomplete Documents",
+      "Operational Issue",
+      "Signature Issue"
+    ],
+    "actions": [
+      "Inform Customer And Reprocess",
+      "Inform Customer If Reason Like Amount Not Available Or Signature Different. If Human Error Of Bm Staff",
+      "Rectify Isssue",
+      "Request Customer To Submit A New Request At The Branch"
+    ]
+  },
+  "Standing Instruction Cancellation not Done": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Human Error",
+      "Incomplete Documents",
+      "Operational Issue",
+      "Signature Issue"
+    ],
+    "actions": [
+      "Inform Customer And Reprocess",
+      "Inform Customer If Reason Like Amount Not Available Or Signature Different. If Human Error Of Bm Staff",
+      "Rectify Isssue",
+      "Request Customer To Submit A New Request At The Branch"
+    ]
+  },
+  "Request for Cancellation/ Recall": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Inform Customer And Reprocess"
+    ]
+  },
+  "Standing Instruction Rejected": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "Signature Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check Document And Rectify",
+      "Check The Account",
+      "Check The Details  And Rectify The Customer  Transaction Details"
+    ]
+  },
+  "Unknown Debit": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check Document And Rectify",
+      "Check The Account",
+      "Check The Details  And Rectify The Customer  Transaction Details"
+    ]
+  },
+  "Unknown Credit": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check Document And Rectify",
+      "Check The Account",
+      "Check The Details  And Rectify The Customer  Transaction Details"
+    ]
+  },
+  "Request for Transfer Confirmation by AMEX": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "Payment Pending",
+      "Signature Issue"
+    ],
+    "actions": [
+      "Inform Customer And Reprocess",
+      "Inform Customer If Reason Like Amount Not Available Or Signature Different. If Human Error Of Bm Staff",
+      "Rectify Isssue"
+    ]
+  },
+  "Duplicate Allowance Received from Social Protection Funds": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires"
+    ]
+  },
+  "Payment Credited To Wrong Beneficiary In Other Bank": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accrdingly",
+      "Rectify Isssue"
+    ]
+  },
+  "Request for Transaction Details Before 2017": {
+    "root_causes": [
+      "Back Office Delay",
+      "Branch Delay",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Branch needs to check Customer Application",
+      "Check The Details  And Rectify The Customer  Transaction Details",
+      "Check The Issue And Rectify",
+      "Check The Transactions",
+      "Check the transaction in t24/ contact the customer if extra information is required /Contact the other bank",
+      "Rectify Isssue",
+      "Request Customer For Missing Documents",
+      "Request Customer To Submit A New Request At The Branch",
+      "Request For Reversal Of Amount",
+      "Reverse Amount"
+    ]
+  },
+  "Policy Not Booked/ Renewed": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Policy Not Received": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Double Premium Deducted": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Wrong Policy Issued": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request"
+    ],
+    "actions": [
+      "Contact Customer",
+      "Rectify"
+    ]
+  },
+  "Hafawa  Loyalty Program  issues": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Discuss With The Vendor"
+    ]
+  },
+  "Change /add URL  Merchant Notifications (Merchant POST URL ,Merchant POST Email )": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Verify And Update"
+    ]
+  },
+  "Change /add URL  Customer Notifications (Customer Notifications Details , Company Logo, Custom email receipt )": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Verify And Update"
+    ]
+  },
+  "Add logo": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Verify And Update"
+    ]
+  },
+  "Request to Open a New Najahi Account/ Corporate Account": {
+    "root_causes": [
+      "Customer Request"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Call The Customer To Fill Application",
+      "Contact Customer For Missing Documents",
+      "Open Account",
+      "Process Customer Application"
+    ]
+  },
+  "Enquiry on Online User Registration": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Enquiry on countries available for fund transfer": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Enquiry on Business to Business Application": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "If no",
+      "guide the customer on how to apply to get the requested service."
+    ]
+  },
+  "Request for Liquidity Management Training": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Request for Business to Business Connectivity Training": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Request for Corporate Online Banking Overview Training": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Request to Increase B2B Banking Transaction Limit": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Request for Direct Debit Mandate Form": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Request for CIF Linkage": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly",
+      "Rectify Technical Error"
+    ]
+  },
+  "Request for Tax Authority Details": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check The Customer Account And Provide The Necessary Details"
+    ]
+  },
+  "Request for CDM Deposit Transaction Details": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check The Customer Account And Provide The Necessary Details",
+      "Contact Customer"
+    ]
+  },
+  "General Enquiry on Documentary Collection": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "Contact the customer for the missing details"
+    ]
+  },
+  "Request For Acceptance of Documents Confirmation": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check The Issue And Process It"
+    ]
+  },
+  "General Enquiry on Import LC": {
+    "root_causes": [
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Request for DHL Tracking Number": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires",
+      "Inquiry Information Provided"
+    ]
+  },
+  "General Enquiry on Guarantee": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires"
+    ]
+  },
+  "LC Copy not Received": {
+    "root_causes": [
+      "Customer Request",
+      "Incomplete Documents",
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check The Issue And Process It"
+    ]
+  },
+  "Request for Import Document Status": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for Local LC Copy": {
+    "root_causes": [
+      "Customer Request",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Request for Swift Copy for Payment Made": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Provide Confirmation Request"
+    ]
+  },
+  "Request for Presentation Acceptance Memo Status": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for LC Draft": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Send The Request To Customer"
+    ]
+  },
+  "General Enquiry on Export LC": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Address the Enquires"
+    ]
+  },
+  "Request for Import LC Issuance Status": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for Export Document Status": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for Export Document Payment Status": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Address the Enquires"
+    ]
+  },
+  "Enquiry on Guarantee Issuance Charges": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Wrong Commission Rate/ Charge Applied": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Request for Guarantee Outstanding Statement": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Enquiry Related to Debit Advice": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for Import LC Outstanding Statement": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for LTR Pre-Settlement Status": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for Debit/ Credit Advice": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for Direct Remittance Status": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for Documentary Collection Status": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Unable to View the Main Page": {
+    "root_causes": [
+      "Customer Request",
+      "System Error"
+    ],
+    "actions": [
+      "Rectify  Technical  Error"
+    ]
+  },
+  "General Enquiry-Navigation/Features/Functionality": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact Customer And Inform Accordingly"
+    ]
+  },
+  "Transaction Status not updated": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Rectify  Technical  Error"
+    ]
+  },
+  "Request for Export Payment Status": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for Export Bill Status": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify",
+      "Check The Account",
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for LTR Status": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check internally",
+      "Request Customer to Fill Indemnity form at Branch to Update the Email ID"
+    ]
+  },
+  "Request for Advance Status": {
+    "root_causes": [
+      "Operational Issue",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check Document And Rectify"
+    ]
+  },
+  "Payment not received": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Tranasction And Provide A Statemnt To The Merchant"
+    ]
+  },
+  "Transaction Refund request": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Obtain The Necceary Approval And Execute The Transaction.",
+      "Verify If The Request Is As Per The Bank Policy"
+    ]
+  },
+  "Locked user": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check PIN reset workflow",
+      "Check if User ID is correct",
+      "ask merchant to do reset",
+      "check if SMS received"
+    ]
+  },
+  "Refund amount not credited to customer account": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check Customer Account Statement",
+      "Check The Tranasction And Provide A Statemnt To The Merchant",
+      "Refund the Amount",
+      "Verify Transaction Status"
+    ]
+  },
+  "OTP not Received during PIN Reset Process": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check PIN reset workflow",
+      "Check if User ID is correct",
+      "ask merchant to do reset",
+      "check if SMS received"
+    ]
+  },
+  "Statement not received": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check If The Auto Statement Has Been Sent To The Merchants",
+      "Provide The Statemnt To The Merchant Manually.",
+      "Update The Email Id If Needed",
+      "Verify The Merchant Statemnt"
+    ]
+  },
+  "Statement request": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Verify The Email Id And Provide The Statemnt Manually."
+    ]
+  },
+  "Unable to open the merchant statement": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Verify The Merchant And Provide The Password."
+    ]
+  },
+  "Trxn not appears in  statement (cybersource, OmanNet , MIGS )": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check The Transactions"
+    ]
+  },
+  "Merchant Statement Enquiry": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Verify The Email Id And Provide The Statemnt Manually."
+    ]
+  },
+  "Payment not received in full": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check The Tranasction And Provide A Statemnt To The Merchant"
+    ]
+  },
+  "Email Update for Statement": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Ask The Merchant To Fill The Required Form",
+      "Once It Is Filled And Signed Perform The Amendment."
+    ]
+  },
+  "Pre-Auth Release": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Realease The Amount From The System"
+    ]
+  },
+  "POS Roll Request": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Provide The Roll To Customer"
+    ]
+  },
+  "Funds has not been transferred to the bank account": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Contact The Merchant Revire The Excuted Transactions And Provide The Statement"
+    ]
+  },
+  "Device not working": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "check if merchant is using correct device (if not ask him to use the original device)"
+    ]
+  },
+  "Staff Disclosed Customer Information to Third Party": {
+    "root_causes": [
+      "Customer Request",
+      "Staff Delay"
+    ],
+    "actions": [
+      "Check internally"
+    ]
+  },
+  "Payment done but amount not credited": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Request Service Provider To Update The Payment"
+    ]
+  },
+  "Amount  higher than actual bill(Outstanding)": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check With Service Provider Request For Reversal Of Amount",
+      "Request For Reversal Of Amount"
+    ]
+  },
+  "Payment Paid to Old/Wrong Contract Number": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Ask Service Provider To Update",
+      "Check With Service Provider Request For Reversal Of Amount",
+      "Request For Reversal"
+    ]
+  },
+  "Payment  to wrong Service Provider": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check With Service Provider Request For Reversal Of Amount",
+      "Request For Reversal Of Amount",
+      "Request Service Provider To Update The Payment"
+    ]
+  },
+  "Payment Not Updated": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Ask Customer To Provide Correct Student Id",
+      "Ask The Reason",
+      "Check Prime And Update The Payment By Card Customer Service",
+      "Check School Account",
+      "Check The Transaction",
+      "Check With Service Provider Request For Reversal Of Amount",
+      "Contact Customer If Necessary",
+      "Request Service Provider To Update The Payment"
+    ]
+  },
+  "Payment to wrong School": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Ask Customer To Provide Correct Student Id",
+      "Check School Account"
+    ]
+  },
+  "Payment  to wrong Student ID": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Ask Customer To Provide Correct Student Id",
+      "Check School Account"
+    ]
+  },
+  "Shukran Membership Number not Linked/ Updated": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Card in Prime and Update the Number",
+      "Contact Merchant",
+      "Rectify Technical Issue"
+    ]
+  },
+  "Request To Transfer Extra Balance from Credit Card": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check Prime And Uptade The Payment"
+    ]
+  },
+  "Payment done for the closed card": {
+    "root_causes": [
+      "Human Error"
+    ],
+    "actions": [
+      "Check Prime And Update The Payment By Card Customer Service"
+    ]
+  },
+  "Request to Transfer Closed Prepaid Card Remaining Balance to Account": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check Prime And Uptade The Payment"
+    ]
+  },
+  "PIN Option not Working through ATM": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Escalate To It Teams To Check And Rectify",
+      "Issue New Card",
+      "Rectify Isssue"
+    ]
+  },
+  "PIN Option not Working through IVR": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Escalate To It Teams To Check And Rectify",
+      "Issue New Card",
+      "Rectify Isssue"
+    ]
+  },
+  "E-PIN created through ATM not working": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Escalate To It",
+      "Issue New Card",
+      "Rectify"
+    ]
+  },
+  "Amount Blocked but Service not Provided": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Systems T24 & Prime",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa"
+    ]
+  },
+  "Unknown Charges / Wrong Amount Charges or Interest": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Systems T24 & Prime",
+      "Contact Merchant",
+      "Customer Shared Information To Third Party",
+      "Genuine Transaction",
+      "Investigate",
+      "Obtain Missing Documents Contact The Customer Via Email",
+      "Raise To Visa"
+    ]
+  },
+  "OTP Online Shopping Issue": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Card Services To Investigate The Issue And Rectify",
+      "Contact Call Center For Further Investigation",
+      "Log A Murshid Call"
+    ]
+  },
+  "Credit card bill not paid": {
+    "root_causes": [
+      "Human Error",
+      "System Error"
+    ],
+    "actions": [
+      "Cdm Details",
+      "Check Customer Details",
+      "Machine Roll"
+    ]
+  },
+  "Wrong transaction alert email / SMS received": {
+    "root_causes": [
+      "Branch Delay",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer  Verify Details",
+      "Delete Wrong Details",
+      "Escalate To It Teams To Check And Rectify",
+      "Log A Call Through Murshid"
+    ]
+  },
+  "E-PIN Created or Re-Set on IVR not Working": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Escalate To It",
+      "Issue New Card",
+      "Rectify"
+    ]
+  },
+  "OTP not received while creating PIN through IVR": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Escalate To It",
+      "Issue New Card",
+      "Rectify"
+    ]
+  },
+  "Printed Card not Working": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Rectify Technical Error"
+    ]
+  },
+  "Charges Debited but Card not Printed": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Rectify  Technical  Error"
+    ]
+  },
+  "Credit Card Due Paid But Payment Not Updated": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Card Services To Investigate The Issue And Rectify",
+      "Check Prime And Uptade The Payment",
+      "Check The Payment Channel If Cdm Check The Roll",
+      "If E Channel Check T24"
+    ]
+  },
+  "Installment Taken on Wrong Date": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Check Prime And Uptade The Payment",
+      "Check T24"
+    ]
+  },
+  "Card not Working": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Escalate To It",
+      "Issue New Card",
+      "Rectify"
+    ]
+  },
+  "1% Cash Back not Received": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Rectify Technical Issue",
+      "Reverse Amount"
+    ]
+  },
+  "Sindbad Miles not Updated": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Card Statement And Add Points",
+      "Contact Merchant",
+      "Rectify Technical Issue"
+    ]
+  },
+  "Credit Cards Statement not Received": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer  Verify Details",
+      "Delete Wrong Details",
+      "Escalate To It Teams To Check And Rectify",
+      "Log A Call Through Murshid"
+    ]
+  },
+  "Transaction alert email / SMS not received": {
+    "root_causes": [
+      "Branch Delay",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check If Customer Details Are Updated",
+      "Escalate To It Teams To Check And Rectify",
+      "Log A Call Through Murshid",
+      "No Request Found From Customer"
+    ]
+  },
+  "Transaction not Converted to Installment": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Merchant",
+      "Convert Transaction",
+      "Request Customer For Missing Documents"
+    ]
+  },
+  "Credit Card limit not increased/decreased": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Branch To Check If Request Sent To Cards Team Via Omniflow",
+      "Check Prime And Omniflow",
+      "Contact Customer For Missing Document"
+    ]
+  },
+  "Credit Card Billing Percentage not Updated": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check Additional Services Application",
+      "Check Prime And Omniflow",
+      "No Request Found",
+      "Request Customer To Submit A New Request At The Branch",
+      "Update As Per Customer Request"
+    ]
+  },
+  "Lulu Cards Points not Updated": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Card Statement And Add Points",
+      "Contact Merchant",
+      "Rectify Technical Issue"
+    ]
+  },
+  "Request to Replace the Linked Shukran Membership Number": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check The Card in Prime and Update the Number",
+      "Contact Merchant",
+      "Rectify Technical Issue"
+    ]
+  },
+  "Request and Deliver of Reissue/Replace/Renew Prepaid Card to Overseas Customer": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Issue New Card"
+    ]
+  },
+  "Prepaid Card Loaded but Payment not Updated": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Card Services To Investigate The Issue And Rectify",
+      "Check Prime And Uptade The Payment",
+      "Check The Payment Channel If Cdm Check The Roll",
+      "If E Channel Check T24"
+    ]
+  },
+  "OTP not Received While Creating PIN Through ATM": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Escalate To It",
+      "Issue New Card",
+      "Rectify"
+    ]
+  },
+  "Card not Working after PIN Creation": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Escalate To It",
+      "Issue New Card",
+      "Rectify"
+    ]
+  },
+  "Unable to Complete Transaction through Apple Pay": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check the Card has been added in Apple wallet",
+      "Check the Device is compatible",
+      "Rectify Technical Issue",
+      "Verify the card status is active"
+    ]
+  },
+  "Card not Received through Overseas Courier": {
+    "root_causes": [
+      "Customer Request",
+      "Customer Retraction",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Ask Customer to Check with Courier",
+      "Card Services To Investigate The Issue And Rectify",
+      "Inform Customer to Keep Provided Mobile Number Reachable",
+      "Inform Customer to Maintain the Delivered Mobile Number",
+      "Inform the Customer to Block the Card in Order to Issue New Card",
+      "Request For New Card  by Contacting Customer Service"
+    ]
+  },
+  "Unable to Complete Transaction through Samsung Pay": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Check the Card has been added in Samsung wallet",
+      "Check the Device is compatible",
+      "Rectify Technical Issue",
+      "Verify the card status is active"
+    ]
+  },
+  "No communication received From Local Courier Following The Request.": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Ask Customer to Check with Courier",
+      "Card Services To Investigate The Issue And Rectify",
+      "Inform Customer to Keep Provided Mobile Number Reachable",
+      "Inform Customer to Maintain the Delivered Mobile Number",
+      "Inform the Customer to Block the Card in Order to Issue New Card",
+      "Request For New Card  by Contacting Customer Service"
+    ]
+  },
+  "Card Delivery Delayed After Customer Contact.": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Ask Customer to Check with Courier",
+      "Card Services To Investigate The Issue And Rectify",
+      "Inform Customer to Keep Provided Mobile Number Reachable",
+      "Inform Customer to Maintain the Delivered Mobile Number",
+      "Inform the Customer to Block the Card in Order to Issue New Card",
+      "Request For New Card  by Contacting Customer Service"
+    ]
+  },
+  "Card Package Delivered In Poor Or Damaged Condition.": {
+    "root_causes": [
+      "Branch Delay",
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Ask Customer to Check with Courier",
+      "Card Services To Investigate The Issue And Rectify",
+      "Inform Customer to Keep Provided Mobile Number Reachable",
+      "Inform Customer to Maintain the Delivered Mobile Number",
+      "Inform the Customer to Block the Card in Order to Issue New Card",
+      "Request For New Card  by Contacting Customer Service"
+    ]
+  },
+  "E-PIN Created or Re-Set through CDM/FFM not Working": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Escalate To It",
+      "Issue New Card",
+      "Rectify"
+    ]
+  },
+  "OTP Not Received While Creating PIN Through Statement Printer": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Escalate To It",
+      "Issue New Card",
+      "Rectify"
+    ]
+  },
+  "PIN Option not Working through CDM/FFM": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Escalate To It Teams To Check And Rectify"
+    ]
+  },
+  "OTP not Received While Creating PIN through CDM/FFM": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Escalate To It Teams To Check And Rectify",
+      "Rectify Isssue"
+    ]
+  },
+  "Request and Deliver of Reissue/Replace/Renew Credit Card to Overseas Customer": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Issue New Card"
+    ]
+  },
+  "PIN Option not working through Statement Printer": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Escalate To It Teams To Check And Rectify",
+      "Issue New Card",
+      "Rectify Isssue"
+    ]
+  },
+  "Deliver of reissue/replace/renew Debit card to overseas customer": {
+    "root_causes": [
+      "Operational Issue"
+    ],
+    "actions": [
+      "Issue New Card"
+    ]
+  },
+  "Unable to Delete card from Samsung Pay Wallet": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check the Device is compatible",
+      "Check the card is available in Samsung pay",
+      "Rectify Technical Issue"
+    ]
+  },
+  "Unable to Add Card to Samsung Wallet, Provisioning done through Wallet": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check the Card has been added in Samsung wallet",
+      "Check the Device is compatible",
+      "Rectify Technical Issue",
+      "Verify the card status is active"
+    ]
+  },
+  "Unable to Add Card to Apple Wallet, Provisioning done through Wallet": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check the Card has been added in Apple wallet",
+      "Check the Device is compatible",
+      "Rectify Technical Issue",
+      "Verify the card status is active"
+    ]
+  },
+  "Unable to Add Card in Mobile Banking": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check the Card has been added in MB",
+      "Check the Device is compatible",
+      "Rectify Technical Issue",
+      "Verify the card status is active"
+    ]
+  },
+  "Card not Showing in the Wallet, Provisioning has been Completed on Mobile Banking": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check the Card has been added in Apple wallet",
+      "Check the Card has been added in Samsung wallet",
+      "Check the Device is compatible",
+      "Rectify Technical Issue",
+      "Verify the card status is active"
+    ]
+  },
+  "Unable to Delete Card from Apple Pay Wallet": {
+    "root_causes": [
+      "Human Error",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Check the Device is compatible",
+      "Check the card is available in Apple pay",
+      "Rectify Technical Issue"
+    ]
+  },
+  "Beneficiary list is not updated": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Call Center To Check And Approve"
+    ]
+  },
+  "Mobile Payments service not activated": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Recitfy Techncial Issues"
+    ]
+  },
+  "OTP received but not working": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Rectify Technical Issue"
+    ]
+  },
+  "Unable to view finance details": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Rectify Technical Issue"
+    ]
+  },
+  "Unable to complete transaction due to error message": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Recitfy Techncial Issues",
+      "Rectify Technical Error"
+    ]
+  },
+  "General Service Complaint / Service Related": {
+    "root_causes": [
+      "Operational Issue",
+      "Application Usability Issue"
+    ],
+    "actions": [
+      "Check Application Outage",
+      "Forward Feedback to Support Team"
+    ]
+  },
+  "Unable to view credit card details": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Insure Card Is Active",
+      "Rectify Technical Issue"
+    ]
+  },
+  "Unable to register": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Activate the Token",
+      "Additional Service Form  Be Asked From The Customer",
+      "Ask Customer To Submit Application",
+      "Branch needs to check Customer Application",
+      "Call Center To Check And Approve",
+      "Call The Customer To Explain How To Use Upload Facility",
+      "Check If The Token Is Linked And Activated",
+      "Contact The Customer",
+      "Guide The Customer On How To Login",
+      "Handover The Token To The Customer",
+      "Inform Customer  And Guide To Input The Right Details",
+      "Inform Customer To Inform That He",
+      "Process Customer Application",
+      "Provide Facility To Upload",
+      "Provide The Corporate Id",
+      "Rectify  Technical  Error",
+      "Release The Locked Amount",
+      "She Is Not Eligible",
+      "To Analyze The Issue And Resolve Or Escalate  To Concerned Department",
+      "User Id To The Customer"
+    ]
+  },
+  "Unable To Register / Unable To Log In": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Educate The Customer",
+      "Rectify Technical Issue"
+    ]
+  },
+  "Unable to view FD Details": {
+    "root_causes": [
+      "System Error"
+    ],
+    "actions": [
+      "Rectify Technical Issue"
+    ]
+  },
+  "Transaction Failed / error message unable to transact": {
+    "root_causes": [
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Rectify Technical Issue"
+    ]
+  },
+  "Delay in Loan Deferment Through Mobile Banking Or Internet Banking Application": {
+    "root_causes": [
+      "Back Office Delay",
+      "Customer Request",
+      "Incomplete Documents"
+    ],
+    "actions": [
+      "Ask Customer To Submit Application",
+      "Check Document And Rectify",
+      "Contact Customer  Verify Details",
+      "Escalation To Concerned Stakeholder"
+    ]
+  },
+  "Account not Opened through Email": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Incomplete Documents",
+      "Operational Issue",
+      "System Error"
+    ],
+    "actions": [
+      "Call The Customer To Fill Application",
+      "Contact Customer For Missing Documents",
+      "Open Account",
+      "Verify If The Request Is As Per The Bank Policy"
+    ]
+  },
+  "Account Not Opened Through Bank Muscat Website": {
+    "root_causes": [
+      "Customer Request",
+      "Operational Issue"
+    ],
+    "actions": [
+      "Call The Customer To Fill Application",
+      "Contact Customer For Missing Documents",
+      "Open Account",
+      "Verify If The Request Is As Per The Bank Policy"
+    ]
+  },
+  "Account not Opened through Outbound Team": {
+    "root_causes": [
+      "Customer Request",
+      "Human Error",
+      "Incomplete Documents",
+      "Invalid Documents",
+      "Operational Issue",
+      "Staff Delay",
+      "System Error"
+    ],
+    "actions": [
+      "Contact Customer For Missing Documents",
+      "Open Account"
+    ]
+  }
+}

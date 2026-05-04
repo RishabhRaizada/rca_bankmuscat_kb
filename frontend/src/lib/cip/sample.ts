@@ -1,0 +1,63 @@
+import type { AnalysisPayload } from "./types";
+
+export const sampleAnalysis: AnalysisPayload = {
+  results: [
+    {message_type:"Inquiry",sentiment:"Neutral",category:"BM Apps",sub_category:"Mobile Banking",issue:"Registration / log in Issues",is_mapped:true,possible_causes:[],root_cause:"Card Expired",rca_summary:"",next_steps:["Additional Service Form Be Asked From The Customer"],confidence_score:0.85,translated_text:"I have received my card, so now I need to know how to sync it with the app.",original_text:"لقد استلمت بطاقتي ، لذا فأنا الآن بحاجة إلى معرفة كيفية مزامنتها مع التطبيق."},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Cards",sub_category:"Debit Card",issue:"Request",is_mapped:true,possible_causes:[],root_cause:"Human Error",rca_summary:"",next_steps:["Inform Customer And Reprocess"],confidence_score:0.85,translated_text:"Can I get a second card for my daughter?",original_text:"هل يمكنني الحصول على بطاقة ثانية لابنتي؟"},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Cards",sub_category:"Debit Card",issue:"E-PIN Enquiry",is_mapped:true,possible_causes:[],root_cause:"Enquiry",rca_summary:"",next_steps:["Contact Customer And Inform Accordingly"],confidence_score:0.85,translated_text:"Where do I find the card PIN?",original_text:"أين أجد الرقم السري للبطاقة؟"},
+    {message_type:"Complaint",sentiment:"Negative",category:"Cards",sub_category:"Debit Card",issue:"Card Status",is_mapped:true,possible_causes:[],root_cause:"Card Destroyed",rca_summary:"",next_steps:["Activate The Card"],confidence_score:0.75,translated_text:"My belongings were stolen yesterday and I cannot use any apps or anything, so I will need some help.",original_text:"تمت سرقة أشيائي بالأمس ولا يمكنني استخدام أي تطبيقات أو أي شيء ، لذلك سأحتاج إلى بعض المساعدة."},
+    {message_type:"Complaint",sentiment:"Negative",category:"Funds Transfer",sub_category:"Other Accounts Within Bank",issue:"Incoming Funds Transfer",is_mapped:true,possible_causes:[],root_cause:"Human Error",rca_summary:"",next_steps:["Check Customer Details Initiate Recall Or Ask Customer To Initiate Recall Depending On Source Of Error"],confidence_score:0.85,translated_text:"The funds were not deposited into the recipients' account.",original_text:"لم يتم وضع الأموال في حساب المستلمين."},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Cards",sub_category:"Enquiry",issue:"Card related Enquiry",is_mapped:true,possible_causes:[],root_cause:"Request",rca_summary:"",next_steps:["Contact Customer And Inform Accordingly"],confidence_score:0.85,translated_text:"Where are your cards delivered?",original_text:"أين يتم تسليم البطاقات الخاصة بك؟"},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Query",sub_category:"Customer Inquiry",issue:"Information Request",is_mapped:false,possible_causes:[],root_cause:"customer details update form not provided with correct details",rca_summary:"",next_steps:["Check Additional Services Application"],confidence_score:0.95,translated_text:"How many miles away is the ATM?",original_text:"كم ميلا تبعد ماكينة الصراف الآلي؟"},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Cards",sub_category:"Debit Card",issue:"E-PIN Issues",is_mapped:true,possible_causes:[],root_cause:"Technical Issue",rca_summary:"",next_steps:["Escalate To It Teams To Check And Rectify"],confidence_score:0.85,translated_text:"Where do I go to unblock my PIN?",original_text:"أين أذهب لإلغاء حظر رقم التعريف الشخصي الخاص بي؟"},
+    {message_type:"Complaint",sentiment:"Negative",category:"Cards",sub_category:"Debit Card",issue:"Transaction or Payment Issues",is_mapped:true,possible_causes:[],root_cause:"Customer Has Wrongly Transferred The Amount",rca_summary:"",next_steps:["Check Prime And Update The Payment"],confidence_score:0.85,translated_text:"My card payment was rejected",original_text:"تم رفض دفع بطاقتي"},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Cards",sub_category:"Credit Card",issue:"Credit Card Related Enquiry",is_mapped:true,possible_causes:[],root_cause:"Enquiry",rca_summary:"",next_steps:["Contact Customer And Inform Accordingly"],confidence_score:0.92,translated_text:"Can I transfer funds through my credit card?",original_text:"هل يمكن تحويل الأموال من خلال بطاقتي الائتمانية؟"},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Cards",sub_category:"Prepaid Card",issue:"Request",is_mapped:true,possible_causes:[],root_cause:"Human Error",rca_summary:"",next_steps:["Inform Customer And Reprocess"],confidence_score:0.85,translated_text:"Can you guide me where to go to request a disposable virtual card, I don't seem to be able to find it.",original_text:"هل يمكنك ارشادي إلى أين أذهب لطلب بطاقة افتراضية يمكن التخلص منها ، لا يبدو أنه يمكنني العثور عليها."},
+    {message_type:"Complaint",sentiment:"Negative",category:"Accounts",sub_category:"Current Account",issue:"Account transactions",is_mapped:true,possible_causes:[],root_cause:"Credit Cards",rca_summary:"",next_steps:["Contact Customer"],confidence_score:0.85,translated_text:"I am still waiting for the funds I deposited this morning.",original_text:"لا أزال أنتظر الأموال التي أودعتها هذا الصباح."},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Cards",sub_category:"Debit Card",issue:"Card Status",is_mapped:true,possible_causes:[],root_cause:"Card Destroyed",rca_summary:"",next_steps:["Activate The Card"],confidence_score:0.85,translated_text:"Can you tell me the steps I should take since my card was stolen?",original_text:"هل يمكن أن تخبرني بالخطوات التي يجب أن أتخذها منذ أن سرقت بطاقتي؟"},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Cards",sub_category:"Debit Card",issue:"Card Status",is_mapped:true,possible_causes:[],root_cause:"Card Destroyed",rca_summary:"",next_steps:["Activate The Card"],confidence_score:0.85,translated_text:"What should be done to activate the card and use it?",original_text:"ما الذي يجب القيام به لتفعيل البطاقة واستخدامها؟"},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Cards",sub_category:"Enquiry",issue:"Card related Enquiry",is_mapped:true,possible_causes:[],root_cause:"Request",rca_summary:"",next_steps:["Contact Customer And Inform Accordingly"],confidence_score:0.95,translated_text:"Can I get more than one card?",original_text:"هل يمكنني الحصول على أكثر من بطاقة؟"},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Accounts",sub_category:"Current Account",issue:"Account transactions",is_mapped:true,possible_causes:[],root_cause:"Credit Cards",rca_summary:"",next_steps:["Contact Customer"],confidence_score:0.85,translated_text:"I would like to know the reason why a cash withdrawal transaction is showing as pending.",original_text:"أود أن أعرف سبب ظهور عملية سحب لبعض النقود على أنها معلقة."},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Cards",sub_category:"Credit Card",issue:"Transaction or Payment Issues",is_mapped:true,possible_causes:[],root_cause:"Customer Has Wrongly Transferred The Amount",rca_summary:"",next_steps:["Check Prime And Update The Payment"],confidence_score:0.85,translated_text:"I faced a problem with paying my card, can you help?",original_text:"واجهت مشكلة في سداد بطاقتي ، هل يمكنك المساعدة؟"},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Cards",sub_category:"Debit Card",issue:"Transaction or Payment Issues",is_mapped:true,possible_causes:[],root_cause:"Customer Has Wrongly Transferred The Amount",rca_summary:"",next_steps:["Check Prime And Update The Payment"],confidence_score:0.85,translated_text:"My card declined cash withdrawal. Why?",original_text:"رفضت بطاقتي السحب النقدي. لماذا ا؟"},
+    {message_type:"Inquiry",sentiment:"Neutral",category:"Cards",sub_category:"Debit Card",issue:"Request",is_mapped:true,possible_causes:[],root_cause:"Human Error",rca_summary:"",next_steps:["Inform Customer And Reprocess"],confidence_score:0.85,translated_text:"Can a second card be issued for this account for my daughter?",original_text:"هل يمكن إعطاء بطاقة ثانية لهذا الحساب لابنتي؟"},
+    {message_type:"Complaint",sentiment:"Negative",category:"Accounts",sub_category:"Current Account",issue:"Account transactions",is_mapped:true,possible_causes:[],root_cause:"Credit Cards",rca_summary:"",next_steps:["Contact Customer"],confidence_score:0.85,translated_text:"I deposited some money into my account the other day and it has not been entered yet, can you help with that?",original_text:"لقد وضعت بعض المال في حسابي في اليوم الآخر ولم يتم إدخاله بعد ، هل يمكنك المساعدة في ذلك؟"},
+  ],
+  report: {
+    total_records: 20,
+    mapped_records: 19,
+    mapping_accuracy: 0.95,
+    category_summary: [
+      { category: "Cards", count: 14 },
+      { category: "Accounts", count: 3 },
+      { category: "BM Apps", count: 1 },
+      { category: "Funds Transfer", count: 1 },
+      { category: "Query", count: 1 },
+    ],
+    subcategory_summary: [
+      { sub_category: "Debit Card", count: 9 },
+      { sub_category: "Current Account", count: 3 },
+      { sub_category: "Enquiry", count: 2 },
+      { sub_category: "Credit Card", count: 2 },
+      { sub_category: "Mobile Banking", count: 1 },
+      { sub_category: "Other Accounts Within Bank", count: 1 },
+      { sub_category: "Customer Inquiry", count: 1 },
+      { sub_category: "Prepaid Card", count: 1 },
+    ],
+    top_issues: [
+      { issue: "Request", count: 3 },
+      { issue: "Card Status", count: 3 },
+      { issue: "Transaction or Payment Issues", count: 3 },
+      { issue: "Account transactions", count: 3 },
+      { issue: "Card related Enquiry", count: 2 },
+    ],
+    sentiment_summary: { Neutral: 15, Negative: 5 },
+    collective_summary:
+      "Processed 20 records. 19 mapped successfully. Top category: Cards. Top issue: Request.",
+    insights: [
+      "Majority of messages are in 'Cards' category.",
+      "Most frequent issue is 'Request'.",
+      "Neutral sentiment dominates, indicating mostly enquiries.",
+    ],
+  },
+};
