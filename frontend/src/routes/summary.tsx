@@ -7,6 +7,7 @@ import {
   ChevronUp,
   FileText,
   Loader2,
+  Mail,
   Sparkles,
   TrendingUp,
   Clock,
@@ -48,20 +49,6 @@ const SEVERITY_STYLES: Record<string, { badge: string; bar: string }> = {
 };
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
-function BulletList({ items, color }: { items: string[]; color: string }) {
-  if (!items.length) return <p className="text-sm text-muted-foreground italic">None identified.</p>;
-  return (
-    <ul className="space-y-1.5">
-      {items.map((item, i) => (
-        <li key={i} className="flex gap-2 text-sm">
-          <span className={cn("mt-1 h-1.5 w-1.5 shrink-0 rounded-full", color.replace("text-", "bg-"))} />
-          <span>{item}</span>
-        </li>
-      ))}
-    </ul>
-  );
-}
-
 function SectionBlock({
   icon: Icon,
   title,
@@ -153,22 +140,19 @@ function ClusterReport({ cluster }: { cluster: ClusterSummary }) {
       </div>
 
       {/* 1 · Executive Summary */}
-      <SectionBlock icon={Sparkles} title="1 · Executive Summary" style={SECTION_STYLES.exec}>
-        <NumberedText text={cluster.executive_summary} />
+      <SectionBlock icon={Sparkles} title="1. Executive Summary" style={SECTION_STYLES.exec}>
+        <p className="text-sm leading-relaxed">{cluster.executive_summary}</p>
       </SectionBlock>
 
-      {/* 2 · Root Cause Analysis */}
-      <SectionBlock icon={TrendingUp} title="2 · Root Cause Analysis" style={SECTION_STYLES.deep}>
+      <SectionBlock icon={TrendingUp} title="2. Root Cause Analysis" style={SECTION_STYLES.deep}>
         <NumberedText text={cluster.deep_analysis} />
       </SectionBlock>
 
-      {/* 3 · Short-term Actions */}
-      <SectionBlock icon={Clock} title="3 · Short-term Actions — 1–3 months" style={SECTION_STYLES.short_term}>
+      <SectionBlock icon={Clock} title="3. Short-term Actions — 1–3 months" style={SECTION_STYLES.short_term}>
         <ActionList items={cluster.short_term_actions.slice(0, 3)} />
       </SectionBlock>
 
-      {/* 4 · Strategic Actions */}
-      <SectionBlock icon={Rocket} title="4 · Strategic Actions — 3–12 months" style={SECTION_STYLES.strategic}>
+      <SectionBlock icon={Rocket} title="4. Strategic Actions — 3–12 months" style={SECTION_STYLES.strategic}>
         <ActionList items={cluster.strategic_actions.slice(0, 3)} />
       </SectionBlock>
     </motion.div>
@@ -373,28 +357,6 @@ function downloadPDF(clusters: ClusterSummary[]) {
       y += 3;
     };
 
-    const addBullets = (items: string[], color: [number, number, number] = RED) => {
-      if (!items.length) { addParagraph("None identified."); return; }
-      items.forEach((item) => {
-        const lines = doc.splitTextToSize(item, CW - 6);
-        lines.forEach((line: string, li: number) => {
-          if (y > 272) { doc.addPage(); y = 20; }
-          if (li === 0) {
-            doc.setFillColor(...color);
-            doc.circle(MARGIN + 1.5, y - 1, 1, "F");
-            doc.setTextColor(...DARK);
-            doc.setFont("helvetica", "normal");
-            doc.setFontSize(9);
-            doc.text(line, MARGIN + 5, y);
-          } else {
-            doc.text(line, MARGIN + 5, y);
-          }
-          y += 5;
-        });
-      });
-      y += 2;
-    };
-
     // Sections
     addHeading("1", "Executive Summary");
     addParagraph(c.executive_summary);
@@ -447,6 +409,46 @@ function downloadPDF(clusters: ClusterSummary[]) {
   });
 
   doc.save(`cluster-analysis-${new Date().toISOString().slice(0, 10)}.pdf`);
+}
+
+function emailReport(cluster: ClusterSummary) {
+  const subject = encodeURIComponent(`RCA Insight: ${cluster.category}`);
+  const sep  = "=".repeat(60);
+  const dash = "-".repeat(60);
+  const date = new Date().toLocaleDateString("en-GB", { day: "2-digit", month: "long", year: "numeric" });
+
+  const lines: string[] = [
+    `Customer Intelligence Platform — RCA Insights`,
+    `Bank Muscat x AIONOS  |  ${date}`,
+    sep,
+    ``,
+    `CLUSTER: ${cluster.category.toUpperCase()}`,
+    `Severity: ${cluster.severity_tier}  |  ${cluster.severity_justification}`,
+    ``,
+    sep,
+    ``,
+    `1. EXECUTIVE SUMMARY`,
+    dash,
+    cluster.executive_summary,
+    ``,
+    `2. ROOT CAUSE ANALYSIS`,
+    dash,
+    cluster.deep_analysis,
+    ``,
+    `3. SHORT-TERM ACTIONS  (1-3 months)`,
+    dash,
+    ...cluster.short_term_actions.slice(0, 3).map((a, i) => `  ${i + 1}.  [${a.owner}]  ${a.action}`),
+    ``,
+    `4. STRATEGIC ACTIONS  (3-12 months)`,
+    dash,
+    ...cluster.strategic_actions.slice(0, 3).map((a, i) => `  ${i + 1}.  [${a.owner}]  ${a.action}`),
+    ``,
+    sep,
+    `This report was generated automatically by the Customer Intelligence Platform.`,
+    `Do not reply to this email.`,
+  ];
+  const body = encodeURIComponent(lines.join("\n"));
+  window.location.href = `mailto:?subject=${subject}&body=${body}`;
 }
 
 // ─── Main page ───────────────────────────────────────────────────────────────
@@ -528,7 +530,7 @@ function SummaryPage() {
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">RCA Insights</h1>
           <p className="mt-1 text-sm text-muted-foreground">
-            {categoryGroups.length} category clusters · {data.results.length} total messages
+            {categoryGroups.length} category clusters
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-2">
@@ -686,6 +688,13 @@ function SummaryPage() {
                         className="bg-red-600 hover:bg-red-700 text-white"
                       >
                         <FileText className="mr-1.5 h-3.5 w-3.5" /> PDF
+                      </Button>
+                      <Button
+                        size="sm"
+                        onClick={() => emailReport(selectedCluster)}
+                        className="bg-sky-600 hover:bg-sky-700 text-white"
+                      >
+                        <Mail className="mr-1.5 h-3.5 w-3.5" /> Email
                       </Button>
                     </div>
                   </div>
