@@ -84,20 +84,50 @@ function SectionBlock({
   );
 }
 
-function ActionList({ items, iconColor }: { items: Action[]; iconColor: string }) {
+function ActionList({ items }: { items: Action[] }) {
   if (!items.length) return <p className="text-sm text-muted-foreground italic">None identified.</p>;
   return (
-    <ul className="space-y-2">
+    <ol className="space-y-2">
       {items.map((item, i) => (
         <li key={i} className="flex items-start gap-2.5 text-sm">
-          <span className={cn("mt-1 h-1.5 w-1.5 shrink-0 rounded-full", iconColor.replace("text-", "bg-"))} />
-          <span className="flex-1">{item.action}</span>
+          <span className="shrink-0 w-5 text-right text-xs font-semibold opacity-50 mt-0.5">{i + 1}.</span>
+          <span className="flex-1 leading-relaxed">{item.action}</span>
           <span className="shrink-0 rounded px-1.5 py-0.5 text-[10px] font-medium bg-muted text-muted-foreground">
             {item.owner}
           </span>
         </li>
       ))}
-    </ul>
+    </ol>
+  );
+}
+
+// ─── Numbered prose renderer ─────────────────────────────────────────────────
+function NumberedText({ text, className }: { text: string; className?: string }) {
+  if (!text) return null;
+
+  const lines = text.split(/\n/).map((l) => l.trim()).filter(Boolean);
+
+  let items: string[];
+  if (lines.length > 1) {
+    items = lines.map((l) => l.replace(/^[\d]+\.\s*|^[•\-*]\s*/, "").trim()).filter(Boolean);
+  } else {
+    const raw = text.split(/\.\s+/).map((s) => s.trim()).filter(Boolean);
+    items = raw.map((s, i) => (i < raw.length - 1 ? s + "." : s));
+  }
+
+  if (items.length <= 1) {
+    return <p className={cn("text-sm leading-relaxed", className)}>{text}</p>;
+  }
+
+  return (
+    <ol className={cn("space-y-2 text-sm", className)}>
+      {items.map((item, i) => (
+        <li key={i} className="flex gap-2.5">
+          <span className="shrink-0 w-5 text-right text-xs font-semibold opacity-50 mt-0.5">{i + 1}.</span>
+          <span className="leading-relaxed">{item}</span>
+        </li>
+      ))}
+    </ol>
   );
 }
 
@@ -124,22 +154,22 @@ function ClusterReport({ cluster }: { cluster: ClusterSummary }) {
 
       {/* 1 · Executive Summary */}
       <SectionBlock icon={Sparkles} title="1 · Executive Summary" style={SECTION_STYLES.exec}>
-        <p className="text-sm leading-relaxed">{cluster.executive_summary}</p>
+        <NumberedText text={cluster.executive_summary} />
       </SectionBlock>
 
       {/* 2 · Root Cause Analysis */}
       <SectionBlock icon={TrendingUp} title="2 · Root Cause Analysis" style={SECTION_STYLES.deep}>
-        <p className="text-sm leading-relaxed">{cluster.deep_analysis}</p>
+        <NumberedText text={cluster.deep_analysis} />
       </SectionBlock>
 
       {/* 3 · Short-term Actions */}
       <SectionBlock icon={Clock} title="3 · Short-term Actions — 1–3 months" style={SECTION_STYLES.short_term}>
-        <ActionList items={cluster.short_term_actions.slice(0, 3)} iconColor={SECTION_STYLES.short_term.icon} />
+        <ActionList items={cluster.short_term_actions.slice(0, 3)} />
       </SectionBlock>
 
       {/* 4 · Strategic Actions */}
       <SectionBlock icon={Rocket} title="4 · Strategic Actions — 3–12 months" style={SECTION_STYLES.strategic}>
-        <ActionList items={cluster.strategic_actions.slice(0, 3)} iconColor={SECTION_STYLES.strategic.icon} />
+        <ActionList items={cluster.strategic_actions.slice(0, 3)} />
       </SectionBlock>
     </motion.div>
   );
